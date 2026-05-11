@@ -1,0 +1,162 @@
+body {
+    background: linear-gradient(to right, #2c2c2c, #1a1a1a);
+    font-family: Arial;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: #f8f8f8;
+    padding: 25px;
+    width: 300px;
+    border-radius: 10px;
+    position: relative;
+}
+
+
+.close-btn {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+}
+
+
+.logo {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+.tabs {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 15px;
+}
+
+.tabs button {
+    background: none;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    color: #aaa;
+}
+
+.tabs button.active {
+    color: #7b6db0;
+}
+
+
+.form {
+    display: none;
+}
+
+.logo img {
+    height: 100px;
+    width: auto;
+    position: absolute;
+    top: -70px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.form.active {
+    display: block;
+}
+
+label {
+    font-size: 12px;
+    display: block;
+    margin-top: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 7px;
+    margin-top: 3px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* 👈 ADD THIS */
+    font-size: 11px;
+    margin-top: 10px;
+}
+
+.remember {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 11px;
+    margin-top: 10px;
+}
+.remember input {
+    margin: 0;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* 👈 ADD THIS */
+    font-size: 11px;
+    margin-top: 10px;
+}
+
+
+.btn {
+    width: 100%;
+    margin-top: 15px;
+    padding: 10px;
+    background: #7b6db0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.switch {
+    font-size: 11px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.switch span {
+    color: #7b6db0;
+    cursor: pointer;
+}
+
+
+.terms {
+    display: right;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 12px;
+    margin-top: 10px;
+    gap: 10px;
+}
+
+.terms span {
+    flex: auto;
+}
+
+.terms input {
+    margin: 0;
+}
+
+.admin {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 11px;
+    margin-top: 10px;
+}
+.admin input {
+    margin: 0;
+}

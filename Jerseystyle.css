@@ -1,0 +1,94 @@
+.shop {
+    padding: 40px;
+    text-align: center;
+}
+
+.shop h1 {
+    color: #7b6db0;
+    margin-bottom: 20px;
+}
+
+/* GRID */
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    justify-items: center;
+}
+
+/* PRODUCT CARD */
+.product {
+    width: 200px;
+    text-align: center;
+}
+
+.product-img {
+    width: 100%;
+    height: 150px;   /* smaller height = rectangle */
+    object-fit: cover;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+}
+/* EMPTY IMAGE BOX */
+.img-box {
+    width: 150px;
+    height: 150px;
+    border: 2px solid #ccc;
+    background: #eee;
+    margin-bottom: 10px;
+}
+
+/* BUTTON */
+.product button {
+    background: #7b6db0;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* MODAL BACKGROUND */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    justify-content: center;
+    align-items: center;
+}
+
+/* MODAL BOX */
+.modal-box {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: left;
+}
+
+/* INPUTS */
+.modal-box input {
+    width: 90%;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* BUTTONS */
+.modal-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.cancel-btn {
+    background: #ccc;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
