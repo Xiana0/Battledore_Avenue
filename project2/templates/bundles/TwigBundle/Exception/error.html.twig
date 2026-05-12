@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        {% if status_code in [400, 401, 402, 403, 404, 405, 500, 501, 502, 503] %}
+        <title>{{ status_code }} {{ phrase(status_code, true) }}</title>
+        {% else %}
+        <title>{{ status_code }} {{ status_text }}</title>
+        {% endif %}
+        <link rel="stylesheet" href="{{ asset('adminlte3/css/' ~ cssfile('adminlte.css')) }}">
+        <link rel="stylesheet" href="{{ asset('plugins/fontawesome-free/css/all.min.css') }}">
+        <link rel="stylesheet" href="{{ asset('css/' ~ cssfile(config('PROJECT_STYLESHEET_FILENAME'))) }}">
+    </head>
+    <body class="container-fluid">
+        <div class="d-flex justify-content-center align-items-center h-100">
+            <div class="error-page">
+                <div class="d-flex flex-row align-items-center mb-3">
+                    <div class="p-3">
+                        <h2 class="headline text-danger">{{ status_code }}</h2>
+                    </div>
+                    <div class="p-3 error-content">
+                    {% if status_code in [400, 401, 402, 403, 404, 405, 500, 501, 502, 503] %}
+                        <h3>
+                            <i class="fa-solid fa-triangle-exclamation text-danger"></i>
+                            {{ phrase(status_code, true) }}
+                        </h3>
+                        <p>{{ phrase(status_code ~ 'Desc', true) }}</p>
+                    {% else %}
+                        <h3><i class="fa-solid fa-triangle-exclamation text-danger"></i> {{ status_text }}</h3>
+                    {% endif %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

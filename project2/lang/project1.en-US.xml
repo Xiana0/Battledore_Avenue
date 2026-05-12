@@ -1,0 +1,206 @@
+<ew-language date="2026/5/11" id="en-US" author="e.World Technology Limited">
+  <project>
+    <phrase id="footertext" value="&amp;copy;2025 e.World Technology Limited. All rights reserved." />
+    <menu id="1">
+      <phrase id="menutext" value="accessories" />
+    </menu>
+    <menu id="2">
+      <phrase id="menutext" value="admins" />
+    </menu>
+    <menu id="3">
+      <phrase id="menutext" value="bookings" />
+    </menu>
+    <menu id="4">
+      <phrase id="menutext" value="cart" />
+    </menu>
+    <menu id="5">
+      <phrase id="menutext" value="jerseys" />
+    </menu>
+    <menu id="6">
+      <phrase id="menutext" value="order items" />
+    </menu>
+    <menu id="7">
+      <phrase id="menutext" value="orders" />
+    </menu>
+    <menu id="8">
+      <phrase id="menutext" value="rent rackets" />
+    </menu>
+    <menu id="9">
+      <phrase id="menutext" value="users" />
+    </menu>
+    <table id="accessories">
+      <phrase id="tblcaption" value="accessories" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="accessory_name">
+        <phrase id="fldcaption" value="accessory name" />
+      </field>
+      <field id="price">
+        <phrase id="fldcaption" value="price" />
+      </field>
+      <field id="image">
+        <phrase id="fldcaption" value="image" />
+      </field>
+      <field id="stock">
+        <phrase id="fldcaption" value="stock" />
+      </field>
+    </table>
+    <table id="admins">
+      <phrase id="tblcaption" value="admins" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="admin_id">
+        <phrase id="fldcaption" value="admin id" />
+      </field>
+      <field id="password">
+        <phrase id="fldcaption" value="password" />
+      </field>
+    </table>
+    <table id="bookings">
+      <phrase id="tblcaption" value="bookings" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="user_id">
+        <phrase id="fldcaption" value="user id" />
+      </field>
+      <field id="court_name">
+        <phrase id="fldcaption" value="court name" />
+      </field>
+      <field id="booking_date">
+        <phrase id="fldcaption" value="booking date" />
+      </field>
+      <field id="booking_time">
+        <phrase id="fldcaption" value="booking time" />
+      </field>
+      <field id="status">
+        <phrase id="fldcaption" value="status" />
+      </field>
+    </table>
+    <table id="cart">
+      <phrase id="tblcaption" value="cart" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="user_id">
+        <phrase id="fldcaption" value="user id" />
+      </field>
+      <field id="product_name">
+        <phrase id="fldcaption" value="product name" />
+      </field>
+      <field id="product_type">
+        <phrase id="fldcaption" value="product type" />
+      </field>
+      <field id="quantity">
+        <phrase id="fldcaption" value="quantity" />
+      </field>
+      <field id="price">
+        <phrase id="fldcaption" value="price" />
+      </field>
+      <field id="image">
+        <phrase id="fldcaption" value="image" />
+      </field>
+    </table>
+    <table id="jerseys">
+      <phrase id="tblcaption" value="jerseys" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="jersey_name">
+        <phrase id="fldcaption" value="jersey name" />
+      </field>
+      <field id="price">
+        <phrase id="fldcaption" value="price" />
+      </field>
+      <field id="image">
+        <phrase id="fldcaption" value="image" />
+      </field>
+      <field id="stock">
+        <phrase id="fldcaption" value="stock" />
+      </field>
+    </table>
+    <table id="order_items">
+      <phrase id="tblcaption" value="order items" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="order_id">
+        <phrase id="fldcaption" value="order id" />
+      </field>
+      <field id="product_name">
+        <phrase id="fldcaption" value="product name" />
+      </field>
+      <field id="quantity">
+        <phrase id="fldcaption" value="quantity" />
+      </field>
+      <field id="price">
+        <phrase id="fldcaption" value="price" />
+      </field>
+    </table>
+    <table id="orders">
+      <phrase id="tblcaption" value="orders" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="user_id">
+        <phrase id="fldcaption" value="user id" />
+      </field>
+      <field id="total_amount">
+        <phrase id="fldcaption" value="total amount" />
+      </field>
+      <field id="payment_method">
+        <phrase id="fldcaption" value="payment method" />
+      </field>
+      <field id="payment_status">
+        <phrase id="fldcaption" value="payment status" />
+      </field>
+      <field id="created_at">
+        <phrase id="fldcaption" value="created at" />
+      </field>
+    </table>
+    <table id="rent_rackets">
+      <phrase id="tblcaption" value="rent rackets" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="racket_name">
+        <phrase id="fldcaption" value="racket name" />
+      </field>
+      <field id="brand">
+        <phrase id="fldcaption" value="brand" />
+      </field>
+      <field id="price_per_day">
+        <phrase id="fldcaption" value="price per day" />
+      </field>
+      <field id="image">
+        <phrase id="fldcaption" value="image" />
+      </field>
+      <field id="stock">
+        <phrase id="fldcaption" value="stock" />
+      </field>
+    </table>
+    <table id="users">
+      <phrase id="tblcaption" value="users" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="fullname">
+        <phrase id="fldcaption" value="fullname" />
+      </field>
+      <field id="email">
+        <phrase id="fldcaption" value="email" />
+      </field>
+      <field id="contact">
+        <phrase id="fldcaption" value="contact" />
+      </field>
+      <field id="password">
+        <phrase id="fldcaption" value="password" />
+      </field>
+      <field id="created_at">
+        <phrase id="fldcaption" value="created at" />
+      </field>
+    </table>
+  </project>
+</ew-language>

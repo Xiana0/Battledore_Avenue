@@ -127,7 +127,7 @@ function goCheckout() {
         return;
     }
 
-    window.location.href = "checkout.html";
+    window.location.href = "checkout.php";
 }
 
 // INITIALIZE

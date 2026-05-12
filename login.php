@@ -1,32 +1,36 @@
 <?php
+
+session_start();
 include "db.php";
 
 $email = $_POST['email'];
 $password = $_POST['password'];
 
-$sql = "SELECT * FROM users WHERE email='$email'";
-$result = $conn->query($sql);
+$sql = "SELECT * FROM users 
+WHERE email='$email' 
+AND password='$password'";
 
-if ($result->num_rows > 0) {
-    $user = $result->fetch_assoc();
+$result = mysqli_query($conn, $sql);
 
-    if (password_verify($password, $user['password'])) {
+if(mysqli_num_rows($result) > 0){
 
-        // SEND DATA TO JS
-        echo "
-        <script>
-            localStorage.setItem('loggedInUser', JSON.stringify({
-                name: '{$user['name']}',
-                email: '{$user['email']}'
-            }));
-            window.location.href = 'home.html';
-        </script>
-        ";
+    if(mysqli_num_rows($result) > 0){
 
-    } else {
-        echo "Wrong password";
-    }
-} else {
-    echo "No user found";
+    $user = mysqli_fetch_assoc($result);
+
+    $_SESSION['user_id'] = $user['id'];
+
+    $_SESSION['user_name'] = $user['fullname'];
+
+    header("Location: home.php");
+    exit();
+
 }
+
+} else {
+
+    echo "Invalid Login";
+
+}
+
 ?>

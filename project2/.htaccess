@@ -1,0 +1,29 @@
+# Enable URL rewriting
+RewriteEngine On
+# RewriteCond %{REQUEST_FILENAME} !-f
+# RewriteCond %{REQUEST_FILENAME} !-d
+# RewriteRule ^ index.php [QSA,L]
+# Store the current location in an environment variable CWD to rewrite without RewriteBase
+RewriteCond $0#%{REQUEST_URI} ([^#]*)#(.*)\1$
+RewriteRule ^.*$ - [E=CWD:%2]
+# Send requests to front controller for the site
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^ %{ENV:CWD}index.php [QSA,L]
+# Authorization header
+SetEnvIf Authorization "(.*)" HTTP_AUTHORIZATION=$1
+# Custom headers
+# Header set Access-Control-Allow-Origin "*"
+# Header set Access-Control-Allow-Headers "X-Requested-With,Origin,Authorization"
+# Header set Access-Control-Allow-Methods "GET, POST, PUT, DELETE, PATCH, OPTIONS"
+# Header set Access-Control-Allow-Credentials "true"
+# Disable directory listing
+Options All -Indexes
+# Deny access to sensitive files
+<FilesMatch "^(\.env(\..+)?|\.htaccess|\.gitignore|composer\.json|composer\.lock|.*\.log|.*\.pem|.*\.key|.*\.crt)$">
+    Require all denied
+</FilesMatch>
+# Block access to the config directory
+RewriteRule ^config(/|$) - [F]
+# Block access to the var directory
+RewriteRule ^var(/|$) - [F]

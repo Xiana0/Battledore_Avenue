@@ -1,0 +1,11 @@
+{
+    "name": "project1",
+    "version": "26.10.0",
+    "description": "project1",
+    "license": "SEE LICENSE IN LICENSE.md",
+    "private": true,
+    "dependencies": {},
+    "engines": {
+        "node": ">=22"
+    }
+}

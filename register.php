@@ -1,4 +1,5 @@
 <?php
+
 include "db.php";
 
 $name = $_POST['name'];
@@ -6,16 +7,21 @@ $email = $_POST['email'];
 $contact = $_POST['contact'];
 $password = $_POST['password'];
 
-// hash password (IMPORTANT)
-$hashed_password = password_hash($password, PASSWORD_DEFAULT);
+$check = mysqli_query($conn, "SELECT * FROM users WHERE email='$email'");
 
-$sql = "INSERT INTO users (name, email, contact, password)
-        VALUES ('$name', '$email', '$contact', '$hashed_password')";
+if(mysqli_num_rows($check) > 0){
 
-if ($conn->query($sql) === TRUE) {
-    echo "Registered successfully!";
-    header("Location: auth.html");
+    echo "Email already registered!";
+
 } else {
-    echo "Error: " . $conn->error;
+
+    $sql = "INSERT INTO users(fullname,email,contact,password)
+    VALUES('$name','$email','$contact','$password')";
+
+    mysqli_query($conn, $sql);
+
+    header("Location: home.php");
+    exit();
 }
+
 ?>

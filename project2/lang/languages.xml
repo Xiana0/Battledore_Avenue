@@ -1,0 +1,791 @@
+<?xml version="1.0"?>
+    <ew-language version="26.10.0" author="e.World Technology Limited">
+    <global>
+        <phrase id="af" desc="Afrikaans" region=""/>
+        <phrase id="af-NA" desc="Afrikaans (Namibië)" region="NA"/>
+        <phrase id="af-ZA" desc="Afrikaans (Suid-Afrika)" region="ZA"/>
+        <phrase id="agq" desc="Aghem" region=""/>
+        <phrase id="agq-CM" desc="Aghem (Kàmàlûŋ)" region="CM"/>
+        <phrase id="ak" desc="Akan" region=""/>
+        <phrase id="ak-GH" desc="Akan (Gaana)" region="GH"/>
+        <phrase id="am" desc="አማርኛ" region=""/>
+        <phrase id="am-ET" desc="አማርኛ (ኢትዮጵያ)" region="ET"/>
+        <phrase id="ar" desc="العربية" region=""/>
+        <phrase id="ar-001" desc="العربية (العالم)" region=""/>
+        <phrase id="ar-AE" desc="العربية (الإمارات العربية المتحدة)" region="AE"/>
+        <phrase id="ar-BH" desc="العربية (البحرين)" region="BH"/>
+        <phrase id="ar-DJ" desc="العربية (جيبوتي)" region="DJ"/>
+        <phrase id="ar-DZ" desc="العربية (الجزائر)" region="DZ"/>
+        <phrase id="ar-EG" desc="العربية (مصر)" region="EG"/>
+        <phrase id="ar-EH" desc="العربية (الصحراء الغربية)" region="EH"/>
+        <phrase id="ar-ER" desc="العربية (إريتريا)" region="ER"/>
+        <phrase id="ar-IL" desc="العربية (إسرائيل)" region="IL"/>
+        <phrase id="ar-IQ" desc="العربية (العراق)" region="IQ"/>
+        <phrase id="ar-JO" desc="العربية (الأردن)" region="JO"/>
+        <phrase id="ar-KM" desc="العربية (جزر القمر)" region="KM"/>
+        <phrase id="ar-KW" desc="العربية (الكويت)" region="KW"/>
+        <phrase id="ar-LB" desc="العربية (لبنان)" region="LB"/>
+        <phrase id="ar-LY" desc="العربية (ليبيا)" region="LY"/>
+        <phrase id="ar-MA" desc="العربية (المغرب)" region="MA"/>
+        <phrase id="ar-MR" desc="العربية (موريتانيا)" region="MR"/>
+        <phrase id="ar-OM" desc="العربية (عُمان)" region="OM"/>
+        <phrase id="ar-PS" desc="العربية (الأراضي الفلسطينية)" region="PS"/>
+        <phrase id="ar-QA" desc="العربية (قطر)" region="QA"/>
+        <phrase id="ar-SA" desc="العربية (المملكة العربية السعودية)" region="SA"/>
+        <phrase id="ar-SD" desc="العربية (السودان)" region="SD"/>
+        <phrase id="ar-SO" desc="العربية (الصومال)" region="SO"/>
+        <phrase id="ar-SS" desc="العربية (جنوب السودان)" region="SS"/>
+        <phrase id="ar-SY" desc="العربية (سوريا)" region="SY"/>
+        <phrase id="ar-TD" desc="العربية (تشاد)" region="TD"/>
+        <phrase id="ar-TN" desc="العربية (تونس)" region="TN"/>
+        <phrase id="ar-YE" desc="العربية (اليمن)" region="YE"/>
+        <phrase id="as" desc="অসমীয়া" region=""/>
+        <phrase id="as-IN" desc="অসমীয়া (ভাৰত)" region="IN"/>
+        <phrase id="asa" desc="Kipare" region=""/>
+        <phrase id="asa-TZ" desc="Kipare (Tadhania)" region="TZ"/>
+        <phrase id="ast" desc="asturianu" region=""/>
+        <phrase id="ast-ES" desc="asturianu (España)" region="ES"/>
+        <phrase id="az" desc="azərbaycan" region=""/>
+        <phrase id="az-Cyrl" desc="азәрбајҹан (Кирил)" region=""/>
+        <phrase id="az-Cyrl-AZ" desc="азәрбајҹан (Кирил, Азәрбајҹан)" region="AZ"/>
+        <phrase id="az-Latn" desc="azərbaycan (latın)" region=""/>
+        <phrase id="az-Latn-AZ" desc="azərbaycan (latın, Azərbaycan)" region="AZ"/>
+        <phrase id="bas" desc="Ɓàsàa" region=""/>
+        <phrase id="bas-CM" desc="Ɓàsàa (Kàmɛ̀rûn)" region="CM"/>
+        <phrase id="be" desc="беларуская" region=""/>
+        <phrase id="be-BY" desc="беларуская (Беларусь)" region="BY"/>
+        <phrase id="bem" desc="Ichibemba" region=""/>
+        <phrase id="bem-ZM" desc="Ichibemba (Zambia)" region="ZM"/>
+        <phrase id="bez" desc="Hibena" region=""/>
+        <phrase id="bez-TZ" desc="Hibena (Hutanzania)" region="TZ"/>
+        <phrase id="bg" desc="български" region=""/>
+        <phrase id="bg-BG" desc="български (България)" region="BG"/>
+        <phrase id="bm" desc="bamanakan" region=""/>
+        <phrase id="bm-ML" desc="bamanakan (Mali)" region="ML"/>
+        <phrase id="bn" desc="বাংলা" region=""/>
+        <phrase id="bn-BD" desc="বাংলা (বাংলাদেশ)" region="BD"/>
+        <phrase id="bn-IN" desc="বাংলা (ভারত)" region="IN"/>
+        <phrase id="bo" desc="བོད་སྐད་" region=""/>
+        <phrase id="bo-CN" desc="བོད་སྐད་ (རྒྱ་ནག)" region="CN"/>
+        <phrase id="bo-IN" desc="བོད་སྐད་ (རྒྱ་གར་)" region="IN"/>
+        <phrase id="br" desc="brezhoneg" region=""/>
+        <phrase id="br-FR" desc="brezhoneg (Frañs)" region="FR"/>
+        <phrase id="brx" desc="बड़ो" region=""/>
+        <phrase id="brx-IN" desc="बड़ो (भारत)" region="IN"/>
+        <phrase id="bs" desc="bosanski" region=""/>
+        <phrase id="bs-Cyrl" desc="босански (ћирилица)" region=""/>
+        <phrase id="bs-Cyrl-BA" desc="босански (ћирилица, Босна и Херцеговина)" region="BA"/>
+        <phrase id="bs-Latn" desc="bosanski (latinica)" region=""/>
+        <phrase id="bs-Latn-BA" desc="bosanski (latinica, Bosna i Hercegovina)" region="BA"/>
+        <phrase id="ca" desc="català" region=""/>
+        <phrase id="ca-AD" desc="català (Andorra)" region="AD"/>
+        <phrase id="ca-ES" desc="català (Espanya)" region="ES"/>
+        <phrase id="ca-FR" desc="català (França)" region="FR"/>
+        <phrase id="ca-IT" desc="català (Itàlia)" region="IT"/>
+        <phrase id="ccp" desc="𑄌𑄋𑄴𑄟𑄳𑄦" region=""/>
+        <phrase id="ccp-BD" desc="𑄌𑄋𑄴𑄟𑄳𑄦 (𑄝𑄁𑄣𑄘𑄬𑄌𑄴)" region="BD"/>
+        <phrase id="ccp-IN" desc="𑄌𑄋𑄴𑄟𑄳𑄦 (𑄞𑄢𑄧𑄖𑄴)" region="IN"/>
+        <phrase id="ce" desc="нохчийн" region=""/>
+        <phrase id="ce-RU" desc="нохчийн (Росси)" region="RU"/>
+        <phrase id="ceb" desc="Binisaya" region=""/>
+        <phrase id="ceb-PH" desc="Binisaya (Pilipinas)" region="PH"/>
+        <phrase id="cgg" desc="Rukiga" region=""/>
+        <phrase id="cgg-UG" desc="Rukiga (Uganda)" region="UG"/>
+        <phrase id="chr" desc="ᏣᎳᎩ" region=""/>
+        <phrase id="chr-US" desc="ᏣᎳᎩ (ᏌᏊ ᎢᏳᎾᎵᏍᏔᏅ ᏍᎦᏚᎩ)" region="US"/>
+        <phrase id="ckb" desc="کوردیی ناوەندی" region=""/>
+        <phrase id="ckb-IQ" desc="کوردیی ناوەندی (عێراق)" region="IQ"/>
+        <phrase id="ckb-IR" desc="کوردیی ناوەندی (ئێران)" region="IR"/>
+        <phrase id="cs" desc="čeština" region=""/>
+        <phrase id="cs-CZ" desc="čeština (Česko)" region="CZ"/>
+        <phrase id="cy" desc="Cymraeg" region=""/>
+        <phrase id="cy-GB" desc="Cymraeg (Y Deyrnas Unedig)" region="GB"/>
+        <phrase id="da" desc="dansk" region=""/>
+        <phrase id="da-DK" desc="dansk (Danmark)" region="DK"/>
+        <phrase id="da-GL" desc="dansk (Grønland)" region="GL"/>
+        <phrase id="dav" desc="Kitaita" region=""/>
+        <phrase id="dav-KE" desc="Kitaita (Kenya)" region="KE"/>
+        <phrase id="de" desc="Deutsch" region=""/>
+        <phrase id="de-AT" desc="Deutsch (Österreich)" region="AT"/>
+        <phrase id="de-BE" desc="Deutsch (Belgien)" region="BE"/>
+        <phrase id="de-CH" desc="Deutsch (Schweiz)" region="CH"/>
+        <phrase id="de-DE" desc="Deutsch (Deutschland)" region="DE"/>
+        <phrase id="de-IT" desc="Deutsch (Italien)" region="IT"/>
+        <phrase id="de-LI" desc="Deutsch (Liechtenstein)" region="LI"/>
+        <phrase id="de-LU" desc="Deutsch (Luxemburg)" region="LU"/>
+        <phrase id="dje" desc="Zarmaciine" region=""/>
+        <phrase id="dje-NE" desc="Zarmaciine (Nižer)" region="NE"/>
+        <phrase id="doi" desc="डोगरी" region=""/>
+        <phrase id="doi-IN" desc="डोगरी (भारत)" region="IN"/>
+        <phrase id="dsb" desc="dolnoserbšćina" region=""/>
+        <phrase id="dsb-DE" desc="dolnoserbšćina (Nimska)" region="DE"/>
+        <phrase id="dua" desc="duálá" region=""/>
+        <phrase id="dua-CM" desc="duálá (Cameroun)" region="CM"/>
+        <phrase id="dyo" desc="joola" region=""/>
+        <phrase id="dyo-SN" desc="joola (Senegal)" region="SN"/>
+        <phrase id="dz" desc="རྫོང་ཁ" region=""/>
+        <phrase id="dz-BT" desc="རྫོང་ཁ། (འབྲུག།)" region="BT"/>
+        <phrase id="ebu" desc="Kĩembu" region=""/>
+        <phrase id="ebu-KE" desc="Kĩembu (Kenya)" region="KE"/>
+        <phrase id="ee" desc="Eʋegbe" region=""/>
+        <phrase id="ee-GH" desc="Eʋegbe (Ghana nutome)" region="GH"/>
+        <phrase id="ee-TG" desc="Eʋegbe (Togo nutome)" region="TG"/>
+        <phrase id="el" desc="Ελληνικά" region=""/>
+        <phrase id="el-CY" desc="Ελληνικά (Κύπρος)" region="CY"/>
+        <phrase id="el-GR" desc="Ελληνικά (Ελλάδα)" region="GR"/>
+        <phrase id="en" desc="English" region=""/>
+        <phrase id="en-001" desc="English (world)" region=""/>
+        <phrase id="en-150" desc="English (Europe)" region=""/>
+        <phrase id="en-AE" desc="English (United Arab Emirates)" region="AE"/>
+        <phrase id="en-AG" desc="English (Antigua &amp; Barbuda)" region="AG"/>
+        <phrase id="en-AI" desc="English (Anguilla)" region="AI"/>
+        <phrase id="en-AS" desc="English (American Samoa)" region="AS"/>
+        <phrase id="en-AT" desc="English (Austria)" region="AT"/>
+        <phrase id="en-AU" desc="English (Australia)" region="AU"/>
+        <phrase id="en-BB" desc="English (Barbados)" region="BB"/>
+        <phrase id="en-BE" desc="English (Belgium)" region="BE"/>
+        <phrase id="en-BI" desc="English (Burundi)" region="BI"/>
+        <phrase id="en-BM" desc="English (Bermuda)" region="BM"/>
+        <phrase id="en-BS" desc="English (Bahamas)" region="BS"/>
+        <phrase id="en-BW" desc="English (Botswana)" region="BW"/>
+        <phrase id="en-BZ" desc="English (Belize)" region="BZ"/>
+        <phrase id="en-CA" desc="English (Canada)" region="CA"/>
+        <phrase id="en-CC" desc="English (Cocos [Keeling] Islands)" region="CC"/>
+        <phrase id="en-CH" desc="English (Switzerland)" region="CH"/>
+        <phrase id="en-CK" desc="English (Cook Islands)" region="CK"/>
+        <phrase id="en-CM" desc="English (Cameroon)" region="CM"/>
+        <phrase id="en-CX" desc="English (Christmas Island)" region="CX"/>
+        <phrase id="en-CY" desc="English (Cyprus)" region="CY"/>
+        <phrase id="en-DE" desc="English (Germany)" region="DE"/>
+        <phrase id="en-DG" desc="English (Diego Garcia)" region="DG"/>
+        <phrase id="en-DK" desc="English (Denmark)" region="DK"/>
+        <phrase id="en-DM" desc="English (Dominica)" region="DM"/>
+        <phrase id="en-ER" desc="English (Eritrea)" region="ER"/>
+        <phrase id="en-FI" desc="English (Finland)" region="FI"/>
+        <phrase id="en-FJ" desc="English (Fiji)" region="FJ"/>
+        <phrase id="en-FK" desc="English (Falkland Islands)" region="FK"/>
+        <phrase id="en-FM" desc="English (Micronesia)" region="FM"/>
+        <phrase id="en-GB" desc="English (United Kingdom)" region="GB"/>
+        <phrase id="en-GD" desc="English (Grenada)" region="GD"/>
+        <phrase id="en-GG" desc="English (Guernsey)" region="GG"/>
+        <phrase id="en-GH" desc="English (Ghana)" region="GH"/>
+        <phrase id="en-GI" desc="English (Gibraltar)" region="GI"/>
+        <phrase id="en-GM" desc="English (Gambia)" region="GM"/>
+        <phrase id="en-GU" desc="English (Guam)" region="GU"/>
+        <phrase id="en-GY" desc="English (Guyana)" region="GY"/>
+        <phrase id="en-HK" desc="English (Hong Kong SAR China)" region="HK"/>
+        <phrase id="en-IE" desc="English (Ireland)" region="IE"/>
+        <phrase id="en-IL" desc="English (Israel)" region="IL"/>
+        <phrase id="en-IM" desc="English (Isle of Man)" region="IM"/>
+        <phrase id="en-IN" desc="English (India)" region="IN"/>
+        <phrase id="en-IO" desc="English (British Indian Ocean Territory)" region="IO"/>
+        <phrase id="en-JE" desc="English (Jersey)" region="JE"/>
+        <phrase id="en-JM" desc="English (Jamaica)" region="JM"/>
+        <phrase id="en-KE" desc="English (Kenya)" region="KE"/>
+        <phrase id="en-KI" desc="English (Kiribati)" region="KI"/>
+        <phrase id="en-KN" desc="English (St. Kitts &amp; Nevis)" region="KN"/>
+        <phrase id="en-KY" desc="English (Cayman Islands)" region="KY"/>
+        <phrase id="en-LC" desc="English (St. Lucia)" region="LC"/>
+        <phrase id="en-LR" desc="English (Liberia)" region="LR"/>
+        <phrase id="en-LS" desc="English (Lesotho)" region="LS"/>
+        <phrase id="en-MG" desc="English (Madagascar)" region="MG"/>
+        <phrase id="en-MH" desc="English (Marshall Islands)" region="MH"/>
+        <phrase id="en-MO" desc="English (Macao SAR China)" region="MO"/>
+        <phrase id="en-MP" desc="English (Northern Mariana Islands)" region="MP"/>
+        <phrase id="en-MS" desc="English (Montserrat)" region="MS"/>
+        <phrase id="en-MT" desc="English (Malta)" region="MT"/>
+        <phrase id="en-MU" desc="English (Mauritius)" region="MU"/>
+        <phrase id="en-MW" desc="English (Malawi)" region="MW"/>
+        <phrase id="en-MY" desc="English (Malaysia)" region="MY"/>
+        <phrase id="en-NA" desc="English (Namibia)" region="NA"/>
+        <phrase id="en-NF" desc="English (Norfolk Island)" region="NF"/>
+        <phrase id="en-NG" desc="English (Nigeria)" region="NG"/>
+        <phrase id="en-NL" desc="English (Netherlands)" region="NL"/>
+        <phrase id="en-NR" desc="English (Nauru)" region="NR"/>
+        <phrase id="en-NU" desc="English (Niue)" region="NU"/>
+        <phrase id="en-NZ" desc="English (New Zealand)" region="NZ"/>
+        <phrase id="en-PG" desc="English (Papua New Guinea)" region="PG"/>
+        <phrase id="en-PH" desc="English (Philippines)" region="PH"/>
+        <phrase id="en-PK" desc="English (Pakistan)" region="PK"/>
+        <phrase id="en-PN" desc="English (Pitcairn Islands)" region="PN"/>
+        <phrase id="en-PR" desc="English (Puerto Rico)" region="PR"/>
+        <phrase id="en-PW" desc="English (Palau)" region="PW"/>
+        <phrase id="en-RW" desc="English (Rwanda)" region="RW"/>
+        <phrase id="en-SB" desc="English (Solomon Islands)" region="SB"/>
+        <phrase id="en-SC" desc="English (Seychelles)" region="SC"/>
+        <phrase id="en-SD" desc="English (Sudan)" region="SD"/>
+        <phrase id="en-SE" desc="English (Sweden)" region="SE"/>
+        <phrase id="en-SG" desc="English (Singapore)" region="SG"/>
+        <phrase id="en-SH" desc="English (St. Helena)" region="SH"/>
+        <phrase id="en-SI" desc="English (Slovenia)" region="SI"/>
+        <phrase id="en-SL" desc="English (Sierra Leone)" region="SL"/>
+        <phrase id="en-SS" desc="English (South Sudan)" region="SS"/>
+        <phrase id="en-SX" desc="English (Sint Maarten)" region="SX"/>
+        <phrase id="en-SZ" desc="English (Eswatini)" region="SZ"/>
+        <phrase id="en-TC" desc="English (Turks &amp; Caicos Islands)" region="TC"/>
+        <phrase id="en-TK" desc="English (Tokelau)" region="TK"/>
+        <phrase id="en-TO" desc="English (Tonga)" region="TO"/>
+        <phrase id="en-TT" desc="English (Trinidad &amp; Tobago)" region="TT"/>
+        <phrase id="en-TV" desc="English (Tuvalu)" region="TV"/>
+        <phrase id="en-TZ" desc="English (Tanzania)" region="TZ"/>
+        <phrase id="en-UG" desc="English (Uganda)" region="UG"/>
+        <phrase id="en-UM" desc="English (U.S. Outlying Islands)" region="UM"/>
+        <phrase id="en-US" desc="English (United States)" region="US"/>
+        <phrase id="en-US-POSIX" desc="English (United States, Computer)" region=""/>
+        <phrase id="en-VC" desc="English (St. Vincent &amp; Grenadines)" region="VC"/>
+        <phrase id="en-VG" desc="English (British Virgin Islands)" region="VG"/>
+        <phrase id="en-VI" desc="English (U.S. Virgin Islands)" region="VI"/>
+        <phrase id="en-VU" desc="English (Vanuatu)" region="VU"/>
+        <phrase id="en-WS" desc="English (Samoa)" region="WS"/>
+        <phrase id="en-ZA" desc="English (South Africa)" region="ZA"/>
+        <phrase id="en-ZM" desc="English (Zambia)" region="ZM"/>
+        <phrase id="en-ZW" desc="English (Zimbabwe)" region="ZW"/>
+        <phrase id="eo" desc="esperanto" region=""/>
+        <phrase id="eo-001" desc="esperanto (Mondo)" region=""/>
+        <phrase id="es" desc="español" region=""/>
+        <phrase id="es-419" desc="español (Latinoamérica)" region=""/>
+        <phrase id="es-AR" desc="español (Argentina)" region="AR"/>
+        <phrase id="es-BO" desc="español (Bolivia)" region="BO"/>
+        <phrase id="es-BR" desc="español (Brasil)" region="BR"/>
+        <phrase id="es-BZ" desc="español (Belice)" region="BZ"/>
+        <phrase id="es-CL" desc="español (Chile)" region="CL"/>
+        <phrase id="es-CO" desc="español (Colombia)" region="CO"/>
+        <phrase id="es-CR" desc="español (Costa Rica)" region="CR"/>
+        <phrase id="es-CU" desc="español (Cuba)" region="CU"/>
+        <phrase id="es-DO" desc="español (República Dominicana)" region="DO"/>
+        <phrase id="es-EA" desc="español (Ceuta y Melilla)" region="EA"/>
+        <phrase id="es-EC" desc="español (Ecuador)" region="EC"/>
+        <phrase id="es-ES" desc="español (España)" region="ES"/>
+        <phrase id="es-GQ" desc="español (Guinea Ecuatorial)" region="GQ"/>
+        <phrase id="es-GT" desc="español (Guatemala)" region="GT"/>
+        <phrase id="es-HN" desc="español (Honduras)" region="HN"/>
+        <phrase id="es-IC" desc="español (Canarias)" region="IC"/>
+        <phrase id="es-MX" desc="español (México)" region="MX"/>
+        <phrase id="es-NI" desc="español (Nicaragua)" region="NI"/>
+        <phrase id="es-PA" desc="español (Panamá)" region="PA"/>
+        <phrase id="es-PE" desc="español (Perú)" region="PE"/>
+        <phrase id="es-PH" desc="español (Filipinas)" region="PH"/>
+        <phrase id="es-PR" desc="español (Puerto Rico)" region="PR"/>
+        <phrase id="es-PY" desc="español (Paraguay)" region="PY"/>
+        <phrase id="es-SV" desc="español (El Salvador)" region="SV"/>
+        <phrase id="es-US" desc="español (Estados Unidos)" region="US"/>
+        <phrase id="es-UY" desc="español (Uruguay)" region="UY"/>
+        <phrase id="es-VE" desc="español (Venezuela)" region="VE"/>
+        <phrase id="et" desc="eesti" region=""/>
+        <phrase id="et-EE" desc="eesti (Eesti)" region="EE"/>
+        <phrase id="eu" desc="euskara" region=""/>
+        <phrase id="eu-ES" desc="euskara (Espainia)" region="ES"/>
+        <phrase id="ewo" desc="ewondo" region=""/>
+        <phrase id="ewo-CM" desc="ewondo (Kamərún)" region="CM"/>
+        <phrase id="fa" desc="فارسی" region=""/>
+        <phrase id="fa-AF" desc="فارسی (افغانستان)" region="AF"/>
+        <phrase id="fa-IR" desc="فارسی (ایران)" region="IR"/>
+        <phrase id="ff" desc="Pulaar" region=""/>
+        <phrase id="ff-Adlm" desc="𞤆𞤵𞤤𞤢𞤪 (𞤀𞤁𞤂𞤢𞤃)" region=""/>
+        <phrase id="ff-Adlm-BF" desc="𞤆𞤵𞤤𞤢𞤪 (𞤀𞤁𞤂𞤢𞤃⹁ 𞤄𞤵𞤪𞤳𞤭𞤲𞤢 𞤊𞤢𞤧𞤮𞥅)" region="BF"/>
+        <phrase id="ff-Adlm-CM" desc="𞤆𞤵𞤤𞤢𞤪 (𞤀𞤁𞤂𞤢𞤃⹁ 𞤑𞤢𞤥𞤢𞤪𞤵𞥅𞤲)" region="CM"/>
+        <phrase id="ff-Adlm-GH" desc="𞤆𞤵𞤤𞤢𞤪 (𞤀𞤁𞤂𞤢𞤃⹁ 𞤘𞤢𞤲𞤢)" region="GH"/>
+        <phrase id="ff-Adlm-GM" desc="𞤆𞤵𞤤𞤢𞤪 (𞤀𞤁𞤂𞤢𞤃⹁ 𞤘𞤢𞤥𞤦𞤭𞤴𞤢)" region="GM"/>
+        <phrase id="ff-Adlm-GN" desc="𞤆𞤵𞤤𞤢𞤪 (𞤀𞤁𞤂𞤢𞤃⹁ 𞤘𞤭𞤲𞤫)" region="GN"/>
+        <phrase id="ff-Adlm-GW" desc="𞤆𞤵𞤤𞤢𞤪 (𞤀𞤁𞤂𞤢𞤃⹁ 𞤘𞤭𞤲𞤫-𞤄𞤭𞤧𞤢𞤱𞤮𞥅)" region="GW"/>
+        <phrase id="ff-Adlm-LR" desc="𞤆𞤵𞤤𞤢𞤪 (𞤀𞤁𞤂𞤢𞤃⹁ 𞤂𞤢𞤦𞤭𞤪𞤭𞤴𞤢𞥄)" region="LR"/>
+        <phrase id="ff-Adlm-MR" desc="𞤆𞤵𞤤𞤢𞤪 (𞤀𞤁𞤂𞤢𞤃⹁ 𞤃𞤮𞤪𞤼𞤢𞤲𞤭𞥅)" region="MR"/>
+        <phrase id="ff-Adlm-NE" desc="𞤆𞤵𞤤𞤢𞤪 (𞤀𞤁𞤂𞤢𞤃⹁ 𞤐𞤭𞥅𞤶𞤫𞤪)" region="NE"/>
+        <phrase id="ff-Adlm-NG" desc="𞤆𞤵𞤤𞤢𞤪 (𞤀𞤁𞤂𞤢𞤃⹁ 𞤐𞤢𞤶𞤫𞤪𞤭𞤴𞤢𞥄)" region="NG"/>
+        <phrase id="ff-Adlm-SL" desc="𞤆𞤵𞤤𞤢𞤪 (𞤀𞤁𞤂𞤢𞤃⹁ 𞤅𞤢𞤪𞤢𞤤𞤮𞤲)" region="SL"/>
+        <phrase id="ff-Adlm-SN" desc="𞤆𞤵𞤤𞤢𞤪 (𞤀𞤁𞤂𞤢𞤃⹁ 𞤅𞤫𞤲𞤫𞤺𞤢𞥄𞤤)" region="SN"/>
+        <phrase id="ff-Latn" desc="Pulaar (Latn)" region=""/>
+        <phrase id="ff-Latn-BF" desc="Pulaar (Latn, Burkibaa Faaso)" region="BF"/>
+        <phrase id="ff-Latn-CM" desc="Pulaar (Latn, Kameruun)" region="CM"/>
+        <phrase id="ff-Latn-GH" desc="Pulaar (Latn, Ganaa)" region="GH"/>
+        <phrase id="ff-Latn-GM" desc="Pulaar (Latn, Gammbi)" region="GM"/>
+        <phrase id="ff-Latn-GN" desc="Pulaar (Latn, Gine)" region="GN"/>
+        <phrase id="ff-Latn-GW" desc="Pulaar (Latn, Gine-Bisaawo)" region="GW"/>
+        <phrase id="ff-Latn-LR" desc="Pulaar (Latn, Liberiyaa)" region="LR"/>
+        <phrase id="ff-Latn-MR" desc="Pulaar (Latn, Muritani)" region="MR"/>
+        <phrase id="ff-Latn-NE" desc="Pulaar (Latn, Nijeer)" region="NE"/>
+        <phrase id="ff-Latn-NG" desc="Pulaar (Latn, Nijeriyaa)" region="NG"/>
+        <phrase id="ff-Latn-SL" desc="Pulaar (Latn, Seraa liyon)" region="SL"/>
+        <phrase id="ff-Latn-SN" desc="Pulaar (Latn, Senegaal)" region="SN"/>
+        <phrase id="fi" desc="suomi" region=""/>
+        <phrase id="fi-FI" desc="suomi (Suomi)" region="FI"/>
+        <phrase id="fil" desc="Filipino" region=""/>
+        <phrase id="fil-PH" desc="Filipino (Pilipinas)" region="PH"/>
+        <phrase id="fo" desc="føroyskt" region=""/>
+        <phrase id="fo-DK" desc="føroyskt (Danmark)" region="DK"/>
+        <phrase id="fo-FO" desc="føroyskt (Føroyar)" region="FO"/>
+        <phrase id="fr" desc="français" region=""/>
+        <phrase id="fr-BE" desc="français (Belgique)" region="BE"/>
+        <phrase id="fr-BF" desc="français (Burkina Faso)" region="BF"/>
+        <phrase id="fr-BI" desc="français (Burundi)" region="BI"/>
+        <phrase id="fr-BJ" desc="français (Bénin)" region="BJ"/>
+        <phrase id="fr-BL" desc="français (Saint-Barthélemy)" region="BL"/>
+        <phrase id="fr-CA" desc="français (Canada)" region="CA"/>
+        <phrase id="fr-CD" desc="français (Congo-Kinshasa)" region="CD"/>
+        <phrase id="fr-CF" desc="français (République centrafricaine)" region="CF"/>
+        <phrase id="fr-CG" desc="français (Congo-Brazzaville)" region="CG"/>
+        <phrase id="fr-CH" desc="français (Suisse)" region="CH"/>
+        <phrase id="fr-CI" desc="français (Côte d’Ivoire)" region="CI"/>
+        <phrase id="fr-CM" desc="français (Cameroun)" region="CM"/>
+        <phrase id="fr-DJ" desc="français (Djibouti)" region="DJ"/>
+        <phrase id="fr-DZ" desc="français (Algérie)" region="DZ"/>
+        <phrase id="fr-FR" desc="français (France)" region="FR"/>
+        <phrase id="fr-GA" desc="français (Gabon)" region="GA"/>
+        <phrase id="fr-GF" desc="français (Guyane française)" region="GF"/>
+        <phrase id="fr-GN" desc="français (Guinée)" region="GN"/>
+        <phrase id="fr-GP" desc="français (Guadeloupe)" region="GP"/>
+        <phrase id="fr-GQ" desc="français (Guinée équatoriale)" region="GQ"/>
+        <phrase id="fr-HT" desc="français (Haïti)" region="HT"/>
+        <phrase id="fr-KM" desc="français (Comores)" region="KM"/>
+        <phrase id="fr-LU" desc="français (Luxembourg)" region="LU"/>
+        <phrase id="fr-MA" desc="français (Maroc)" region="MA"/>
+        <phrase id="fr-MC" desc="français (Monaco)" region="MC"/>
+        <phrase id="fr-MF" desc="français (Saint-Martin)" region="MF"/>
+        <phrase id="fr-MG" desc="français (Madagascar)" region="MG"/>
+        <phrase id="fr-ML" desc="français (Mali)" region="ML"/>
+        <phrase id="fr-MQ" desc="français (Martinique)" region="MQ"/>
+        <phrase id="fr-MR" desc="français (Mauritanie)" region="MR"/>
+        <phrase id="fr-MU" desc="français (Maurice)" region="MU"/>
+        <phrase id="fr-NC" desc="français (Nouvelle-Calédonie)" region="NC"/>
+        <phrase id="fr-NE" desc="français (Niger)" region="NE"/>
+        <phrase id="fr-PF" desc="français (Polynésie française)" region="PF"/>
+        <phrase id="fr-PM" desc="français (Saint-Pierre-et-Miquelon)" region="PM"/>
+        <phrase id="fr-RE" desc="français (La Réunion)" region="RE"/>
+        <phrase id="fr-RW" desc="français (Rwanda)" region="RW"/>
+        <phrase id="fr-SC" desc="français (Seychelles)" region="SC"/>
+        <phrase id="fr-SN" desc="français (Sénégal)" region="SN"/>
+        <phrase id="fr-SY" desc="français (Syrie)" region="SY"/>
+        <phrase id="fr-TD" desc="français (Tchad)" region="TD"/>
+        <phrase id="fr-TG" desc="français (Togo)" region="TG"/>
+        <phrase id="fr-TN" desc="français (Tunisie)" region="TN"/>
+        <phrase id="fr-VU" desc="français (Vanuatu)" region="VU"/>
+        <phrase id="fr-WF" desc="français (Wallis-et-Futuna)" region="WF"/>
+        <phrase id="fr-YT" desc="français (Mayotte)" region="YT"/>
+        <phrase id="fur" desc="furlan" region=""/>
+        <phrase id="fur-IT" desc="furlan (Italie)" region="IT"/>
+        <phrase id="fy" desc="Frysk" region=""/>
+        <phrase id="fy-NL" desc="Frysk (Nederlân)" region="NL"/>
+        <phrase id="ga" desc="Gaeilge" region=""/>
+        <phrase id="ga-GB" desc="Gaeilge (an Ríocht Aontaithe)" region="GB"/>
+        <phrase id="ga-IE" desc="Gaeilge (Éire)" region="IE"/>
+        <phrase id="gd" desc="Gàidhlig" region=""/>
+        <phrase id="gd-GB" desc="Gàidhlig (An Rìoghachd Aonaichte)" region="GB"/>
+        <phrase id="gl" desc="galego" region=""/>
+        <phrase id="gl-ES" desc="galego (España)" region="ES"/>
+        <phrase id="gsw" desc="Schwiizertüütsch" region=""/>
+        <phrase id="gsw-CH" desc="Schwiizertüütsch (Schwiiz)" region="CH"/>
+        <phrase id="gsw-FR" desc="Schwiizertüütsch (Frankriich)" region="FR"/>
+        <phrase id="gsw-LI" desc="Schwiizertüütsch (Liächteschtäi)" region="LI"/>
+        <phrase id="gu" desc="ગુજરાતી" region=""/>
+        <phrase id="gu-IN" desc="ગુજરાતી (ભારત)" region="IN"/>
+        <phrase id="guz" desc="Ekegusii" region=""/>
+        <phrase id="guz-KE" desc="Ekegusii (Kenya)" region="KE"/>
+        <phrase id="gv" desc="Gaelg" region=""/>
+        <phrase id="gv-IM" desc="Gaelg (Ellan Vannin)" region="IM"/>
+        <phrase id="ha" desc="Hausa" region=""/>
+        <phrase id="ha-GH" desc="Hausa (Gana)" region="GH"/>
+        <phrase id="ha-NE" desc="Hausa (Nijar)" region="NE"/>
+        <phrase id="ha-NG" desc="Hausa (Najeriya)" region="NG"/>
+        <phrase id="haw" desc="ʻŌlelo Hawaiʻi" region=""/>
+        <phrase id="haw-US" desc="ʻŌlelo Hawaiʻi (ʻAmelika Hui Pū ʻIa)" region="US"/>
+        <phrase id="he" desc="עברית" region=""/>
+        <phrase id="he-IL" desc="עברית (ישראל)" region="IL"/>
+        <phrase id="hi" desc="हिन्दी" region=""/>
+        <phrase id="hi-IN" desc="हिन्दी (भारत)" region="IN"/>
+        <phrase id="hr" desc="hrvatski" region=""/>
+        <phrase id="hr-BA" desc="hrvatski (Bosna i Hercegovina)" region="BA"/>
+        <phrase id="hr-HR" desc="hrvatski (Hrvatska)" region="HR"/>
+        <phrase id="hsb" desc="hornjoserbšćina" region=""/>
+        <phrase id="hsb-DE" desc="hornjoserbšćina (Němska)" region="DE"/>
+        <phrase id="hu" desc="magyar" region=""/>
+        <phrase id="hu-HU" desc="magyar (Magyarország)" region="HU"/>
+        <phrase id="hy" desc="հայերեն" region=""/>
+        <phrase id="hy-AM" desc="հայերեն (Հայաստան)" region="AM"/>
+        <phrase id="ia" desc="interlingua" region=""/>
+        <phrase id="ia-001" desc="interlingua (Mundo)" region=""/>
+        <phrase id="id" desc="Indonesia" region=""/>
+        <phrase id="id-ID" desc="Indonesia (Indonesia)" region="ID"/>
+        <phrase id="ig" desc="Igbo" region=""/>
+        <phrase id="ig-NG" desc="Igbo (Naịjịrịa)" region="NG"/>
+        <phrase id="ii" desc="ꆈꌠꉙ" region=""/>
+        <phrase id="ii-CN" desc="ꆈꌠꉙ (ꍏꇩ)" region="CN"/>
+        <phrase id="is" desc="íslenska" region=""/>
+        <phrase id="is-IS" desc="íslenska (Ísland)" region="IS"/>
+        <phrase id="it" desc="italiano" region=""/>
+        <phrase id="it-CH" desc="italiano (Svizzera)" region="CH"/>
+        <phrase id="it-IT" desc="italiano (Italia)" region="IT"/>
+        <phrase id="it-SM" desc="italiano (San Marino)" region="SM"/>
+        <phrase id="it-VA" desc="italiano (Città del Vaticano)" region="VA"/>
+        <phrase id="ja" desc="日本語" region=""/>
+        <phrase id="ja-JP" desc="日本語 (日本)" region="JP"/>
+        <phrase id="jgo" desc="Ndaꞌa" region=""/>
+        <phrase id="jgo-CM" desc="Ndaꞌa (Kamɛlûn)" region="CM"/>
+        <phrase id="jmc" desc="Kimachame" region=""/>
+        <phrase id="jmc-TZ" desc="Kimachame (Tanzania)" region="TZ"/>
+        <phrase id="jv" desc="Jawa" region=""/>
+        <phrase id="jv-ID" desc="Jawa (Indonésia)" region="ID"/>
+        <phrase id="ka" desc="ქართული" region=""/>
+        <phrase id="ka-GE" desc="ქართული (საქართველო)" region="GE"/>
+        <phrase id="kab" desc="Taqbaylit" region=""/>
+        <phrase id="kab-DZ" desc="Taqbaylit (Lezzayer)" region="DZ"/>
+        <phrase id="kam" desc="Kikamba" region=""/>
+        <phrase id="kam-KE" desc="Kikamba (Kenya)" region="KE"/>
+        <phrase id="kde" desc="Chimakonde" region=""/>
+        <phrase id="kde-TZ" desc="Chimakonde (Tanzania)" region="TZ"/>
+        <phrase id="kea" desc="kabuverdianu" region=""/>
+        <phrase id="kea-CV" desc="kabuverdianu (Kabu Verdi)" region="CV"/>
+        <phrase id="khq" desc="Koyra ciini" region=""/>
+        <phrase id="khq-ML" desc="Koyra ciini (Maali)" region="ML"/>
+        <phrase id="ki" desc="Gikuyu" region=""/>
+        <phrase id="ki-KE" desc="Gikuyu (Kenya)" region="KE"/>
+        <phrase id="kk" desc="қазақ тілі" region=""/>
+        <phrase id="kk-KZ" desc="қазақ тілі (Қазақстан)" region="KZ"/>
+        <phrase id="kkj" desc="kakɔ" region=""/>
+        <phrase id="kkj-CM" desc="kakɔ (Kamɛrun)" region="CM"/>
+        <phrase id="kl" desc="kalaallisut" region=""/>
+        <phrase id="kl-GL" desc="kalaallisut (Kalaallit Nunaat)" region="GL"/>
+        <phrase id="kln" desc="Kalenjin" region=""/>
+        <phrase id="kln-KE" desc="Kalenjin (Emetab Kenya)" region="KE"/>
+        <phrase id="km" desc="ខ្មែរ" region=""/>
+        <phrase id="km-KH" desc="ខ្មែរ (កម្ពុជា)" region="KH"/>
+        <phrase id="kn" desc="ಕನ್ನಡ" region=""/>
+        <phrase id="kn-IN" desc="ಕನ್ನಡ (ಭಾರತ)" region="IN"/>
+        <phrase id="ko" desc="한국어" region=""/>
+        <phrase id="ko-KP" desc="한국어(조선민주주의인민공화국)" region="KP"/>
+        <phrase id="ko-KR" desc="한국어(대한민국)" region="KR"/>
+        <phrase id="kok" desc="कोंकणी" region=""/>
+        <phrase id="kok-IN" desc="कोंकणी (भारत)" region="IN"/>
+        <phrase id="ks" desc="کٲشُر" region=""/>
+        <phrase id="ks-Arab" desc="کٲشُر (اَربی)" region=""/>
+        <phrase id="ks-Arab-IN" desc="کٲشُر (اَربی, ہِندوستان)" region="IN"/>
+        <phrase id="ksb" desc="Kishambaa" region=""/>
+        <phrase id="ksb-TZ" desc="Kishambaa (Tanzania)" region="TZ"/>
+        <phrase id="ksf" desc="rikpa" region=""/>
+        <phrase id="ksf-CM" desc="rikpa (kamɛrún)" region="CM"/>
+        <phrase id="ksh" desc="Kölsch" region=""/>
+        <phrase id="ksh-DE" desc="Kölsch en Doütschland" region="DE"/>
+        <phrase id="ku" desc="kurdî" region=""/>
+        <phrase id="ku-TR" desc="kurdî (Tirkiye)" region="TR"/>
+        <phrase id="kw" desc="kernewek" region=""/>
+        <phrase id="kw-GB" desc="kernewek (Rywvaneth Unys)" region="GB"/>
+        <phrase id="ky" desc="кыргызча" region=""/>
+        <phrase id="ky-KG" desc="кыргызча (Кыргызстан)" region="KG"/>
+        <phrase id="lag" desc="Kɨlaangi" region=""/>
+        <phrase id="lag-TZ" desc="Kɨlaangi (Taansanía)" region="TZ"/>
+        <phrase id="lb" desc="Lëtzebuergesch" region=""/>
+        <phrase id="lb-LU" desc="Lëtzebuergesch (Lëtzebuerg)" region="LU"/>
+        <phrase id="lg" desc="Luganda" region=""/>
+        <phrase id="lg-UG" desc="Luganda (Yuganda)" region="UG"/>
+        <phrase id="lkt" desc="Lakȟólʼiyapi" region=""/>
+        <phrase id="lkt-US" desc="Lakȟólʼiyapi (Mílahaŋska Tȟamákȟočhe)" region="US"/>
+        <phrase id="ln" desc="lingála" region=""/>
+        <phrase id="ln-AO" desc="lingála (Angóla)" region="AO"/>
+        <phrase id="ln-CD" desc="lingála (Republíki ya Kongó Demokratíki)" region="CD"/>
+        <phrase id="ln-CF" desc="lingála (Repibiki ya Afríka ya Káti)" region="CF"/>
+        <phrase id="ln-CG" desc="lingála (Kongo)" region="CG"/>
+        <phrase id="lo" desc="ລາວ" region=""/>
+        <phrase id="lo-LA" desc="ລາວ (ລາວ)" region="LA"/>
+        <phrase id="lrc" desc="لۊری شومالی" region=""/>
+        <phrase id="lrc-IQ" desc="لۊری شومالی (IQ)" region="IQ"/>
+        <phrase id="lrc-IR" desc="لۊری شومالی (IR)" region="IR"/>
+        <phrase id="lt" desc="lietuvių" region=""/>
+        <phrase id="lt-LT" desc="lietuvių (Lietuva)" region="LT"/>
+        <phrase id="lu" desc="Tshiluba" region=""/>
+        <phrase id="lu-CD" desc="Tshiluba (Ditunga wa Kongu)" region="CD"/>
+        <phrase id="luo" desc="Dholuo" region=""/>
+        <phrase id="luo-KE" desc="Dholuo (Kenya)" region="KE"/>
+        <phrase id="luy" desc="Luluhia" region=""/>
+        <phrase id="luy-KE" desc="Luluhia (Kenya)" region="KE"/>
+        <phrase id="lv" desc="latviešu" region=""/>
+        <phrase id="lv-LV" desc="latviešu (Latvija)" region="LV"/>
+        <phrase id="mai" desc="मैथिली" region=""/>
+        <phrase id="mai-IN" desc="मैथिली (भारत)" region="IN"/>
+        <phrase id="mas" desc="Maa" region=""/>
+        <phrase id="mas-KE" desc="Maa (Kenya)" region="KE"/>
+        <phrase id="mas-TZ" desc="Maa (Tansania)" region="TZ"/>
+        <phrase id="mer" desc="Kĩmĩrũ" region=""/>
+        <phrase id="mer-KE" desc="Kĩmĩrũ (Kenya)" region="KE"/>
+        <phrase id="mfe" desc="kreol morisien" region=""/>
+        <phrase id="mfe-MU" desc="kreol morisien (Moris)" region="MU"/>
+        <phrase id="mg" desc="Malagasy" region=""/>
+        <phrase id="mg-MG" desc="Malagasy (Madagasikara)" region="MG"/>
+        <phrase id="mgh" desc="Makua" region=""/>
+        <phrase id="mgh-MZ" desc="Makua (Umozambiki)" region="MZ"/>
+        <phrase id="mgo" desc="metaʼ" region=""/>
+        <phrase id="mgo-CM" desc="metaʼ (Kamalun)" region="CM"/>
+        <phrase id="mi" desc="te reo Māori" region=""/>
+        <phrase id="mi-NZ" desc="te reo Māori (Aotearoa)" region="NZ"/>
+        <phrase id="mk" desc="македонски" region=""/>
+        <phrase id="mk-MK" desc="македонски (Северна Македонија)" region="MK"/>
+        <phrase id="ml" desc="മലയാളം" region=""/>
+        <phrase id="ml-IN" desc="മലയാളം (ഇന്ത്യ)" region="IN"/>
+        <phrase id="mn" desc="монгол" region=""/>
+        <phrase id="mn-MN" desc="монгол (Монгол)" region="MN"/>
+        <phrase id="mni" desc="মৈতৈলোন্" region=""/>
+        <phrase id="mni-Beng" desc="মৈতৈলোন্ (বাংলা)" region=""/>
+        <phrase id="mni-Beng-IN" desc="মৈতৈলোন্ (বাংলা, ইন্দিয়া)" region="IN"/>
+        <phrase id="mr" desc="मराठी" region=""/>
+        <phrase id="mr-IN" desc="मराठी (भारत)" region="IN"/>
+        <phrase id="ms" desc="Melayu" region=""/>
+        <phrase id="ms-BN" desc="Melayu (Brunei)" region="BN"/>
+        <phrase id="ms-ID" desc="Melayu (Indonesia)" region="ID"/>
+        <phrase id="ms-MY" desc="Melayu (Malaysia)" region="MY"/>
+        <phrase id="ms-SG" desc="Melayu (Singapura)" region="SG"/>
+        <phrase id="mt" desc="Malti" region=""/>
+        <phrase id="mt-MT" desc="Malti (Malta)" region="MT"/>
+        <phrase id="mua" desc="MUNDAŊ" region=""/>
+        <phrase id="mua-CM" desc="MUNDAŊ (kameruŋ)" region="CM"/>
+        <phrase id="my" desc="မြန်မာ" region=""/>
+        <phrase id="my-MM" desc="မြန်မာ (မြန်မာ)" region="MM"/>
+        <phrase id="mzn" desc="مازرونی" region=""/>
+        <phrase id="mzn-IR" desc="مازرونی (ایران)" region="IR"/>
+        <phrase id="naq" desc="Khoekhoegowab" region=""/>
+        <phrase id="naq-NA" desc="Khoekhoegowab (Namibiab)" region="NA"/>
+        <phrase id="nb" desc="norsk bokmål" region=""/>
+        <phrase id="nb-NO" desc="norsk bokmål (Norge)" region="NO"/>
+        <phrase id="nb-SJ" desc="norsk bokmål (Svalbard og Jan Mayen)" region="SJ"/>
+        <phrase id="nd" desc="isiNdebele" region=""/>
+        <phrase id="nd-ZW" desc="isiNdebele (Zimbabwe)" region="ZW"/>
+        <phrase id="ne" desc="नेपाली" region=""/>
+        <phrase id="ne-IN" desc="नेपाली (भारत)" region="IN"/>
+        <phrase id="ne-NP" desc="नेपाली (नेपाल)" region="NP"/>
+        <phrase id="nl" desc="Nederlands" region=""/>
+        <phrase id="nl-AW" desc="Nederlands (Aruba)" region="AW"/>
+        <phrase id="nl-BE" desc="Nederlands (België)" region="BE"/>
+        <phrase id="nl-BQ" desc="Nederlands (Caribisch Nederland)" region="BQ"/>
+        <phrase id="nl-CW" desc="Nederlands (Curaçao)" region="CW"/>
+        <phrase id="nl-NL" desc="Nederlands (Nederland)" region="NL"/>
+        <phrase id="nl-SR" desc="Nederlands (Suriname)" region="SR"/>
+        <phrase id="nl-SX" desc="Nederlands (Sint-Maarten)" region="SX"/>
+        <phrase id="nmg" desc="nmg" region=""/>
+        <phrase id="nmg-CM" desc="nmg (Kamerun)" region="CM"/>
+        <phrase id="nn" desc="norsk nynorsk" region=""/>
+        <phrase id="nn-NO" desc="norsk nynorsk (Noreg)" region="NO"/>
+        <phrase id="nnh" desc="Shwóŋò ngiembɔɔn" region=""/>
+        <phrase id="nnh-CM" desc="Shwóŋò ngiembɔɔn (Kàmalûm)" region="CM"/>
+        <phrase id="no" desc="norsk" region=""/>
+        <phrase id="nus" desc="Thok Nath" region=""/>
+        <phrase id="nus-SS" desc="Thok Nath (SS)" region="SS"/>
+        <phrase id="nyn" desc="Runyankore" region=""/>
+        <phrase id="nyn-UG" desc="Runyankore (Uganda)" region="UG"/>
+        <phrase id="om" desc="Oromoo" region=""/>
+        <phrase id="om-ET" desc="Oromoo (Itoophiyaa)" region="ET"/>
+        <phrase id="om-KE" desc="Oromoo (Keeniyaa)" region="KE"/>
+        <phrase id="or" desc="ଓଡ଼ିଆ" region=""/>
+        <phrase id="or-IN" desc="ଓଡ଼ିଆ (ଭାରତ)" region="IN"/>
+        <phrase id="os" desc="ирон" region=""/>
+        <phrase id="os-GE" desc="ирон (Гуырдзыстон)" region="GE"/>
+        <phrase id="os-RU" desc="ирон (Уӕрӕсе)" region="RU"/>
+        <phrase id="pa" desc="ਪੰਜਾਬੀ" region=""/>
+        <phrase id="pa-Arab" desc="پنجابی (عربی)" region=""/>
+        <phrase id="pa-Arab-PK" desc="پنجابی (عربی, پاکستان)" region="PK"/>
+        <phrase id="pa-Guru" desc="ਪੰਜਾਬੀ (ਗੁਰਮੁਖੀ)" region=""/>
+        <phrase id="pa-Guru-IN" desc="ਪੰਜਾਬੀ (ਗੁਰਮੁਖੀ, ਭਾਰਤ)" region="IN"/>
+        <phrase id="pcm" desc="Naijíriá Píjin" region=""/>
+        <phrase id="pcm-NG" desc="Naijíriá Píjin (Naijíria)" region="NG"/>
+        <phrase id="pl" desc="polski" region=""/>
+        <phrase id="pl-PL" desc="polski (Polska)" region="PL"/>
+        <phrase id="ps" desc="پښتو" region=""/>
+        <phrase id="ps-AF" desc="پښتو (افغانستان)" region="AF"/>
+        <phrase id="ps-PK" desc="پښتو (پاکستان)" region="PK"/>
+        <phrase id="pt" desc="português" region=""/>
+        <phrase id="pt-AO" desc="português (Angola)" region="AO"/>
+        <phrase id="pt-BR" desc="português (Brasil)" region="BR"/>
+        <phrase id="pt-CH" desc="português (Suíça)" region="CH"/>
+        <phrase id="pt-CV" desc="português (Cabo Verde)" region="CV"/>
+        <phrase id="pt-GQ" desc="português (Guiné Equatorial)" region="GQ"/>
+        <phrase id="pt-GW" desc="português (Guiné-Bissau)" region="GW"/>
+        <phrase id="pt-LU" desc="português (Luxemburgo)" region="LU"/>
+        <phrase id="pt-MO" desc="português (Macau, RAE da China)" region="MO"/>
+        <phrase id="pt-MZ" desc="português (Moçambique)" region="MZ"/>
+        <phrase id="pt-PT" desc="português (Portugal)" region="PT"/>
+        <phrase id="pt-ST" desc="português (São Tomé e Príncipe)" region="ST"/>
+        <phrase id="pt-TL" desc="português (Timor-Leste)" region="TL"/>
+        <phrase id="qu" desc="Runasimi" region=""/>
+        <phrase id="qu-BO" desc="Runasimi (Bolivia)" region="BO"/>
+        <phrase id="qu-EC" desc="Runasimi (Ecuador)" region="EC"/>
+        <phrase id="qu-PE" desc="Runasimi (Perú)" region="PE"/>
+        <phrase id="rm" desc="rumantsch" region=""/>
+        <phrase id="rm-CH" desc="rumantsch (Svizra)" region="CH"/>
+        <phrase id="rn" desc="Ikirundi" region=""/>
+        <phrase id="rn-BI" desc="Ikirundi (Uburundi)" region="BI"/>
+        <phrase id="ro" desc="română" region=""/>
+        <phrase id="ro-MD" desc="română (Republica Moldova)" region="MD"/>
+        <phrase id="ro-RO" desc="română (România)" region="RO"/>
+        <phrase id="rof" desc="Kihorombo" region=""/>
+        <phrase id="rof-TZ" desc="Kihorombo (Tanzania)" region="TZ"/>
+        <phrase id="ru" desc="русский" region=""/>
+        <phrase id="ru-BY" desc="русский (Беларусь)" region="BY"/>
+        <phrase id="ru-KG" desc="русский (Киргизия)" region="KG"/>
+        <phrase id="ru-KZ" desc="русский (Казахстан)" region="KZ"/>
+        <phrase id="ru-MD" desc="русский (Молдова)" region="MD"/>
+        <phrase id="ru-RU" desc="русский (Россия)" region="RU"/>
+        <phrase id="ru-UA" desc="русский (Украина)" region="UA"/>
+        <phrase id="rw" desc="Kinyarwanda" region=""/>
+        <phrase id="rw-RW" desc="Kinyarwanda (U Rwanda)" region="RW"/>
+        <phrase id="rwk" desc="Kiruwa" region=""/>
+        <phrase id="rwk-TZ" desc="Kiruwa (Tanzania)" region="TZ"/>
+        <phrase id="sa" desc="संस्कृत भाषा" region=""/>
+        <phrase id="sa-IN" desc="संस्कृत भाषा (भारतः)" region="IN"/>
+        <phrase id="sah" desc="саха тыла" region=""/>
+        <phrase id="sah-RU" desc="саха тыла (Арассыыйа)" region="RU"/>
+        <phrase id="saq" desc="Kisampur" region=""/>
+        <phrase id="saq-KE" desc="Kisampur (Kenya)" region="KE"/>
+        <phrase id="sat" desc="ᱥᱟᱱᱛᱟᱲᱤ" region=""/>
+        <phrase id="sat-Olck" desc="ᱥᱟᱱᱛᱟᱲᱤ (ᱚᱞ ᱪᱤᱠᱤ)" region=""/>
+        <phrase id="sat-Olck-IN" desc="ᱥᱟᱱᱛᱟᱲᱤ (ᱚᱞ ᱪᱤᱠᱤ, ᱤᱱᱰᱤᱭᱟ)" region="IN"/>
+        <phrase id="sbp" desc="Ishisangu" region=""/>
+        <phrase id="sbp-TZ" desc="Ishisangu (Tansaniya)" region="TZ"/>
+        <phrase id="sc" desc="sardu" region=""/>
+        <phrase id="sc-IT" desc="sardu (Itàlia)" region="IT"/>
+        <phrase id="sd" desc="سنڌي" region=""/>
+        <phrase id="sd-Arab" desc="سنڌي (عربي)" region=""/>
+        <phrase id="sd-Arab-PK" desc="سنڌي (عربي, پاڪستان)" region="PK"/>
+        <phrase id="sd-Deva" desc="सिन्धी (देवनागिरी)" region=""/>
+        <phrase id="sd-Deva-IN" desc="सिन्धी (देवनागिरी, भारत)" region="IN"/>
+        <phrase id="se" desc="davvisámegiella" region=""/>
+        <phrase id="se-FI" desc="davvisámegiella (Suopma)" region="FI"/>
+        <phrase id="se-NO" desc="davvisámegiella (Norga)" region="NO"/>
+        <phrase id="se-SE" desc="davvisámegiella (Ruoŧŧa)" region="SE"/>
+        <phrase id="seh" desc="sena" region=""/>
+        <phrase id="seh-MZ" desc="sena (Moçambique)" region="MZ"/>
+        <phrase id="ses" desc="Koyraboro senni" region=""/>
+        <phrase id="ses-ML" desc="Koyraboro senni (Maali)" region="ML"/>
+        <phrase id="sg" desc="Sängö" region=""/>
+        <phrase id="sg-CF" desc="Sängö (Ködörösêse tî Bêafrîka)" region="CF"/>
+        <phrase id="shi" desc="ⵜⴰⵛⵍⵃⵉⵜ" region=""/>
+        <phrase id="shi-Latn" desc="Tashelḥiyt (Latn)" region=""/>
+        <phrase id="shi-Latn-MA" desc="Tashelḥiyt (Latn, lmɣrib)" region="MA"/>
+        <phrase id="shi-Tfng" desc="ⵜⴰⵛⵍⵃⵉⵜ (Tfng)" region=""/>
+        <phrase id="shi-Tfng-MA" desc="ⵜⴰⵛⵍⵃⵉⵜ (Tfng, ⵍⵎⵖⵔⵉⴱ)" region="MA"/>
+        <phrase id="si" desc="සිංහල" region=""/>
+        <phrase id="si-LK" desc="සිංහල (ශ්‍රී ලංකාව)" region="LK"/>
+        <phrase id="sk" desc="slovenčina" region=""/>
+        <phrase id="sk-SK" desc="slovenčina (Slovensko)" region="SK"/>
+        <phrase id="sl" desc="slovenščina" region=""/>
+        <phrase id="sl-SI" desc="slovenščina (Slovenija)" region="SI"/>
+        <phrase id="smn" desc="anarâškielâ" region=""/>
+        <phrase id="smn-FI" desc="anarâškielâ (Suomâ)" region="FI"/>
+        <phrase id="sn" desc="chiShona" region=""/>
+        <phrase id="sn-ZW" desc="chiShona (Zimbabwe)" region="ZW"/>
+        <phrase id="so" desc="Soomaali" region=""/>
+        <phrase id="so-DJ" desc="Soomaali (Jabuuti)" region="DJ"/>
+        <phrase id="so-ET" desc="Soomaali (Itoobiya)" region="ET"/>
+        <phrase id="so-KE" desc="Soomaali (Kenya)" region="KE"/>
+        <phrase id="so-SO" desc="Soomaali (Soomaaliya)" region="SO"/>
+        <phrase id="sq" desc="shqip" region=""/>
+        <phrase id="sq-AL" desc="shqip (Shqipëri)" region="AL"/>
+        <phrase id="sq-MK" desc="shqip (Maqedonia e Veriut)" region="MK"/>
+        <phrase id="sq-XK" desc="shqip (Kosovë)" region="XK"/>
+        <phrase id="sr" desc="српски" region=""/>
+        <phrase id="sr-Cyrl" desc="српски (ћирилица)" region=""/>
+        <phrase id="sr-Cyrl-BA" desc="српски (ћирилица, Босна и Херцеговина)" region="BA"/>
+        <phrase id="sr-Cyrl-ME" desc="српски (ћирилица, Црна Гора)" region="ME"/>
+        <phrase id="sr-Cyrl-RS" desc="српски (ћирилица, Србија)" region="RS"/>
+        <phrase id="sr-Cyrl-XK" desc="српски (ћирилица, Косово)" region="XK"/>
+        <phrase id="sr-Latn" desc="srpski (latinica)" region=""/>
+        <phrase id="sr-Latn-BA" desc="srpski (latinica, Bosna i Hercegovina)" region="BA"/>
+        <phrase id="sr-Latn-ME" desc="srpski (latinica, Crna Gora)" region="ME"/>
+        <phrase id="sr-Latn-RS" desc="srpski (latinica, Srbija)" region="RS"/>
+        <phrase id="sr-Latn-XK" desc="srpski (latinica, Kosovo)" region="XK"/>
+        <phrase id="su" desc="Basa Sunda" region=""/>
+        <phrase id="su-Latn" desc="Basa Sunda (Latin)" region=""/>
+        <phrase id="su-Latn-ID" desc="Basa Sunda (Latin, ID)" region="ID"/>
+        <phrase id="sv" desc="svenska" region=""/>
+        <phrase id="sv-AX" desc="svenska (Åland)" region="AX"/>
+        <phrase id="sv-FI" desc="svenska (Finland)" region="FI"/>
+        <phrase id="sv-SE" desc="svenska (Sverige)" region="SE"/>
+        <phrase id="sw" desc="Kiswahili" region=""/>
+        <phrase id="sw-CD" desc="Kiswahili (Jamhuri ya Kidemokrasia ya Kongo)" region="CD"/>
+        <phrase id="sw-KE" desc="Kiswahili (Kenya)" region="KE"/>
+        <phrase id="sw-TZ" desc="Kiswahili (Tanzania)" region="TZ"/>
+        <phrase id="sw-UG" desc="Kiswahili (Uganda)" region="UG"/>
+        <phrase id="ta" desc="தமிழ்" region=""/>
+        <phrase id="ta-IN" desc="தமிழ் (இந்தியா)" region="IN"/>
+        <phrase id="ta-LK" desc="தமிழ் (இலங்கை)" region="LK"/>
+        <phrase id="ta-MY" desc="தமிழ் (மலேசியா)" region="MY"/>
+        <phrase id="ta-SG" desc="தமிழ் (சிங்கப்பூர்)" region="SG"/>
+        <phrase id="te" desc="తెలుగు" region=""/>
+        <phrase id="te-IN" desc="తెలుగు (భారతదేశం)" region="IN"/>
+        <phrase id="teo" desc="Kiteso" region=""/>
+        <phrase id="teo-KE" desc="Kiteso (Kenia)" region="KE"/>
+        <phrase id="teo-UG" desc="Kiteso (Uganda)" region="UG"/>
+        <phrase id="tg" desc="тоҷикӣ" region=""/>
+        <phrase id="tg-TJ" desc="тоҷикӣ (Тоҷикистон)" region="TJ"/>
+        <phrase id="th" desc="ไทย" region=""/>
+        <phrase id="th-TH" desc="ไทย (ไทย)" region="TH"/>
+        <phrase id="ti" desc="ትግርኛ" region=""/>
+        <phrase id="ti-ER" desc="ትግርኛ (ኤርትራ)" region="ER"/>
+        <phrase id="ti-ET" desc="ትግርኛ (ኢትዮጵያ)" region="ET"/>
+        <phrase id="tk" desc="türkmen dili" region=""/>
+        <phrase id="tk-TM" desc="türkmen dili (Türkmenistan)" region="TM"/>
+        <phrase id="to" desc="lea fakatonga" region=""/>
+        <phrase id="to-TO" desc="lea fakatonga (Tonga)" region="TO"/>
+        <phrase id="tr" desc="Türkçe" region=""/>
+        <phrase id="tr-CY" desc="Türkçe (Kıbrıs)" region="CY"/>
+        <phrase id="tr-TR" desc="Türkçe (Türkiye)" region="TR"/>
+        <phrase id="tt" desc="татар" region=""/>
+        <phrase id="tt-RU" desc="татар (Россия)" region="RU"/>
+        <phrase id="twq" desc="Tasawaq senni" region=""/>
+        <phrase id="twq-NE" desc="Tasawaq senni (Nižer)" region="NE"/>
+        <phrase id="tzm" desc="Tamaziɣt n laṭlaṣ" region=""/>
+        <phrase id="tzm-MA" desc="Tamaziɣt n laṭlaṣ (Meṛṛuk)" region="MA"/>
+        <phrase id="ug" desc="ئۇيغۇرچە" region=""/>
+        <phrase id="ug-CN" desc="ئۇيغۇرچە (جۇڭگو)" region="CN"/>
+        <phrase id="uk" desc="українська" region=""/>
+        <phrase id="uk-UA" desc="українська (Україна)" region="UA"/>
+        <phrase id="ur" desc="اردو" region=""/>
+        <phrase id="ur-IN" desc="اردو (بھارت)" region="IN"/>
+        <phrase id="ur-PK" desc="اردو (پاکستان)" region="PK"/>
+        <phrase id="uz" desc="o‘zbek" region=""/>
+        <phrase id="uz-Arab" desc="اوزبیک (عربی)" region=""/>
+        <phrase id="uz-Arab-AF" desc="اوزبیک (عربی, افغانستان)" region="AF"/>
+        <phrase id="uz-Cyrl" desc="ўзбекча (Кирил)" region=""/>
+        <phrase id="uz-Cyrl-UZ" desc="ўзбекча (Кирил, Ўзбекистон)" region="UZ"/>
+        <phrase id="uz-Latn" desc="o‘zbek (lotin)" region=""/>
+        <phrase id="uz-Latn-UZ" desc="o‘zbek (lotin, Oʻzbekiston)" region="UZ"/>
+        <phrase id="vai" desc="ꕙꔤ" region=""/>
+        <phrase id="vai-Latn" desc="Vai (Latn)" region=""/>
+        <phrase id="vai-Latn-LR" desc="Vai (Latn, Laibhiya)" region="LR"/>
+        <phrase id="vai-Vaii" desc="ꕙꔤ (Vaii)" region=""/>
+        <phrase id="vai-Vaii-LR" desc="ꕙꔤ (Vaii, ꕞꔤꔫꕩ)" region="LR"/>
+        <phrase id="vi" desc="Tiếng Việt" region=""/>
+        <phrase id="vi-VN" desc="Tiếng Việt (Việt Nam)" region="VN"/>
+        <phrase id="vun" desc="Kyivunjo" region=""/>
+        <phrase id="vun-TZ" desc="Kyivunjo (Tanzania)" region="TZ"/>
+        <phrase id="wae" desc="Walser" region=""/>
+        <phrase id="wae-CH" desc="Walser (Schwiz)" region="CH"/>
+        <phrase id="wo" desc="Wolof" region=""/>
+        <phrase id="wo-SN" desc="Wolof (Senegaal)" region="SN"/>
+        <phrase id="xh" desc="isiXhosa" region=""/>
+        <phrase id="xh-ZA" desc="isiXhosa (eMzantsi Afrika)" region="ZA"/>
+        <phrase id="xog" desc="Olusoga" region=""/>
+        <phrase id="xog-UG" desc="Olusoga (Yuganda)" region="UG"/>
+        <phrase id="yav" desc="nuasue" region=""/>
+        <phrase id="yav-CM" desc="nuasue (Kemelún)" region="CM"/>
+        <phrase id="yi" desc="ייִדיש" region=""/>
+        <phrase id="yi-001" desc="ייִדיש (וועלט)" region=""/>
+        <phrase id="yo" desc="Èdè Yorùbá" region=""/>
+        <phrase id="yo-BJ" desc="Èdè Yorùbá (Bɛ̀nɛ̀)" region="BJ"/>
+        <phrase id="yo-NG" desc="Èdè Yorùbá (Nàìjíríà)" region="NG"/>
+        <phrase id="yue" desc="粵語" region=""/>
+        <phrase id="yue-Hans" desc="粤语 (简体)" region=""/>
+        <phrase id="yue-Hans-CN" desc="粤语 (简体，中国)" region="CN"/>
+        <phrase id="yue-Hant" desc="粵語 (繁體)" region=""/>
+        <phrase id="yue-Hant-HK" desc="粵語 (繁體，香港)" region="HK"/>
+        <phrase id="zgh" desc="ⵜⴰⵎⴰⵣⵉⵖⵜ" region=""/>
+        <phrase id="zgh-MA" desc="ⵜⴰⵎⴰⵣⵉⵖⵜ (ⵍⵎⵖⵔⵉⴱ)" region="MA"/>
+        <phrase id="zh" desc="中文" region=""/>
+        <phrase id="zh-Hans" desc="中文（简体）" region=""/>
+        <phrase id="zh-Hans-CN" desc="中文（简体，中国）" region="CN"/>
+        <phrase id="zh-Hans-HK" desc="中文（简体，香港）" region="HK"/>
+        <phrase id="zh-Hans-MO" desc="中文（简体，澳门）" region="MO"/>
+        <phrase id="zh-Hans-SG" desc="中文（简体，新加坡）" region="SG"/>
+        <phrase id="zh-Hant" desc="中文（繁體）" region=""/>
+        <phrase id="zh-Hant-HK" desc="中文（繁體，香港）" region="HK"/>
+        <phrase id="zh-Hant-MO" desc="中文（繁體，澳門）" region="MO"/>
+        <phrase id="zh-Hant-TW" desc="中文（繁體，台灣）" region="TW"/>
+        <phrase id="zu" desc="isiZulu" region=""/>
+        <phrase id="zu-ZA" desc="isiZulu (iNingizimu Afrika)" region="ZA"/>
+    </global>
+</ew-language>

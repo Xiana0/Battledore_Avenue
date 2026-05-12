@@ -1,0 +1,41 @@
+{
+    "name": "exercise/htmlpurifier-bundle",
+    "type": "symfony-bundle",
+    "description": "HTMLPurifier integration for your Symfony project",
+    "keywords": ["htmlpurifier", "html", "purifier", "symfony"],
+    "homepage": "https://github.com/Exercise/HTMLPurifierBundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "contributors",
+            "homepage": "https://github.com/Exercise/HTMLPurifierBundle/contributors"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "ezyang/htmlpurifier": "~4.14",
+        "symfony/config": "^5.4 || ^6.0 || ^7.0 || ^8.0",
+        "symfony/dependency-injection": "^5.4 || ^6.0 || ^7.0 || ^8.0",
+        "symfony/http-kernel": "^5.4 || ^6.0 || ^7.0 || ^8.0"
+    },
+    "require-dev": {
+        "symfony/form": "^5.4 || ^6.0 || ^7.0 || ^8.0",
+        "symfony/phpunit-bridge": "^7.3",
+        "twig/twig": "^2.4.4 || ^3.0"
+    },
+    "autoload": {
+        "psr-4": { "Exercise\\HTMLPurifierBundle\\": "src/" }
+    },
+    "autoload-dev": {
+        "psr-4": { "Exercise\\HTMLPurifierBundle\\Tests\\": "tests/" }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "5.x-dev"
+        }
+    },
+    "minimum-stability": "dev"
+}

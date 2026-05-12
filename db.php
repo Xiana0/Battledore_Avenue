@@ -2,7 +2,7 @@
 $host = "localhost";
 $user = "root";
 $pass = "";
-$db = "battledore_db";
+$db = "battledore_avenue";
 
 $conn = new mysqli($host, $user, $pass, $db);
 

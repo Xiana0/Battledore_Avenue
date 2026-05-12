@@ -1,0 +1,49 @@
+#!/usr/bin/env php
+<?php
+
+use PHPMaker2026\Project1\Kernel;
+use PHPMaker2026\Project1\HttpContext;
+use Symfony\Bundle\FrameworkBundle\Console\Application;
+use Symfony\Component\Dotenv\Dotenv;
+use Symfony\Component\HttpFoundation\Request;
+use Symfony\Component\HttpFoundation\RequestStack;
+use Symfony\Component\HttpFoundation\Session\Session;
+use Symfony\Component\HttpFoundation\Session\Storage\MockArraySessionStorage;
+if (!is_dir(dirname(__DIR__) . '/vendor')) {
+    throw new LogicException('Dependencies are missing. Try running "composer install".');
+}
+require_once dirname(__DIR__) . '/vendor/autoload.php';
+
+// Custom globals
+require_once dirname(__DIR__) . '/src/constants.php';
+require_once dirname(__DIR__) . '/src/phpfn.php';
+
+// Load .env first (only if not set)
+if (!isset($_ENV['APP_ENV']) && class_exists(Dotenv::class)) {
+    (new Dotenv())->loadEnv(dirname(__DIR__) . '/.env');
+}
+
+// Global context
+$httpContext = new HttpContext();
+require_once dirname(__DIR__) . '/src/userfn.php';
+
+// Instantiate Kernel
+$env = $_SERVER['APP_ENV'] ?? $_ENV['APP_ENV'] ?? 'dev';
+$debug = (bool) ($_SERVER['APP_DEBUG'] ?? $_ENV['APP_DEBUG'] ?? true);
+$kernel = new Kernel($env, $debug);
+$kernel->setHttpContext($httpContext);
+$kernel->boot();
+
+// Get the RequestStack from the container
+$requestStack = $kernel->getContainer()->get('request_stack');
+
+// Only push if no request exists
+if (!$requestStack->getCurrentRequest()) {
+    $request = Request::create('/');
+    $request->setSession(new Session(new MockArraySessionStorage()));
+    $requestStack->push($request);
+}
+
+// Run the Symfony console application
+$application = new Application($kernel);
+$application->run();

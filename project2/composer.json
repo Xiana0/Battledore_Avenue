@@ -1,0 +1,123 @@
+{
+    "name": "hkvstore/phpmaker",
+    "version": "2026",
+    "type": "project",
+    "homepage": "https://phpmaker.dev/",
+    "license": "Commercial",
+    "authors": [
+        {
+            "name": "e.World Technology Limited",
+            "email": "sales@hkvstore.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.2",
+        "ext-curl": "*",
+        "ext-fileinfo": "*",
+        "ext-intl": "*",
+        "ext-hash": "*",
+        "ext-mbstring": "*",
+        "ext-openssl": "*",
+        "ext-gd": "*",
+        "ext-xml": "*",
+        "nyholm/psr7": "^1.8.1",
+        "nyholm/psr7-server": "^1.1.0",
+        "slim/http": "^1.4.0",
+        "doctrine/dbal": "^4.2.0",
+        "doctrine/orm": "^3.4.0",
+        "doctrine/doctrine-bundle": "^2.18.0",
+        "firehed/dbal-logger": "^2.1.0",
+        "monolog/monolog": "^3.9.0",
+        "mobiledetect/mobiledetectlib": "^4.8.10",
+        "soundasleep/html2text": "^2.1.0",
+        "defuse/php-encryption": "~2.4.0",
+        "dflydev/dot-access-configuration": "^2.0.1",
+        "intervention/image": "^3.11.4",
+        "illuminate/collections": "^v12.20.0",
+        "illuminate/encryption": "^v12.20.0",
+        "gedmo/doctrine-extensions": "^3.20.0",
+        "symfony/dotenv": "^7.4.0",
+        "symfony/framework-bundle": "^7.4.0",
+        "symfony/security-bundle": "^7.4.0",
+        "symfony/security-csrf": "^7.4.0",
+        "symfony/runtime": "^7.4.0",
+        "symfony/yaml": "^7.4.0",
+        "symfony/asset-mapper": "^7.4.0",
+        "symfony/asset": "^7.4.0",
+        "symfony/http-client": "^7.4.0",
+        "symfony/string": "^7.4.0",
+        "symfony/cache": "^7.4.0",
+        "symfony/event-dispatcher": "^7.4.0",
+        "symfony/mime": "^7.4.0",
+        "symfony/finder": "^7.4.0",
+        "symfony/filesystem": "^7.4.0",
+        "symfony/var-exporter": "^7.4.0",
+        "symfony/http-foundation": "^7.4.0",
+        "symfony/routing": "^7.4.0",
+        "symfony/config": "^7.4.0",
+        "symfony/notifier": "^7.4.0",
+        "symfony/mailer": "^7.4.0",
+        "symfony/validator": "^7.4.0",
+        "symfony/console": "^7.4.0",
+        "symfony/web-link": "^7.4.0",
+        "symfony/doctrine-bridge": "^7.4.0",
+        "symfony/psr-http-message-bridge": "^7.4.0",
+        "symfony/twig-bundle": "^7.4.0",
+        "symfony/translation": "^7.4.0",
+        "symfony/expression-language": "^7.4.0",
+        "symfony/process": "^7.4.0",
+        "symfony/serializer": "^7.4.0",
+        "symfony/flex": "^2.9.0",
+        "symfony/twig-pack": "^1.0.1",
+        "symfony/monolog-bundle": "^3.10.0",
+        "symfony/polyfill-php83": "^1.36.0",
+        "symfony/polyfill-php84": "^1.36.0",
+        "symfony/polyfill-php85": "^1.36.0",
+        "symfony/polyfill-php86": "^1.36.0",
+        "lexik/jwt-authentication-bundle": "^3.2.0",
+        "exercise/htmlpurifier-bundle": "^5.1",
+        "pagerfanta/pagerfanta": "^4.7.1",
+        "nelmio/cors-bundle": "^2.6.0",
+        "ramsey/uuid": "^4.7.5",
+        "spatie/color": "^1.7.0",
+        "spatie/php-cloneable": "^1.0.2",
+        "paragonie/csp-builder": "^3.0.0",
+        "league/flysystem": "^3.0",
+        "league/flysystem-bundle": "^3.6.0",
+        "hkvstore/didom": "^2.0.2",
+        "bordoni/phpass": "^0.3.6",
+        "phpmailer/phpmailer": "^7.0.0",
+        "symfony/debug-bundle": "^7.4.0",
+        "hkvstore/dompdf": "~3.1.0"
+    },
+    "require-dev": {},
+    "autoload": {
+        "psr-4": {
+            "PHPMaker2026\\Project1\\": [
+                "src/",
+                "models/",
+                "controllers/"
+            ]
+        }
+    },
+    "config": {
+        "platform": {
+            "php": "8.2.12"
+        },
+        "allow-plugins": {
+            "symfony/flex": false,
+            "*": true
+        },
+        "audit": {
+            "ignore": [
+                "PKSA-hdg2-6rxt-d4qn",
+                "PKSA-8x19-j2j3-bn67"
+            ]
+        }
+    },
+    "extra": {
+        "public-dir": "."
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

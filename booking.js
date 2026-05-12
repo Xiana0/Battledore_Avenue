@@ -88,27 +88,97 @@ function showScreen(screenId) {
 }
 
 function confirmBooking() {
-    if (!selectedCourt || !selectedDate || !selectedTime) {
-        alert('⚠️ Please select Court, Date, and Time!');
+
+    let booking_date =
+        document.getElementById("bookingDate").value;
+
+    if (!selectedCourt || !selectedTime || !booking_date) {
+
+        alert("Please complete booking details");
+
         return;
     }
-    
-    fetch('save_booking.php', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ court: selectedCourt, date: selectedDate, time: selectedTime })
+
+    fetch("booking_process.php", {
+
+        method: "POST",
+
+        headers: {
+            "Content-Type":
+            "application/x-www-form-urlencoded"
+        },
+
+        body:
+
+        "court_name=" + selectedCourt +
+
+        "&booking_date=" + booking_date +
+
+        "&booking_time=" + selectedTime
+
     })
-    .then(response => response.json())
+
+    .then(response => response.text())
+
     .then(data => {
-        if (data.success) {
-            showScreen('screen3');
-            alert('🎉 Booking confirmed!');
+
+        if(data == "success") {
+
+            alert("Booking Confirmed!");
+
+            location.reload();
+
         } else {
-            alert('❌ ' + (data.error || 'Booking failed'));
+
+            alert("Booking failed");
+
         }
-    })
-    .catch(() => {
-        showScreen('screen3'); // Offline mode
-        alert('🎉 Booking confirmed! (Demo mode)');
+
     });
+
+}
+
+function loadBookedSlots() {
+
+    let booking_date =
+        document.getElementById("bookingDate").value;
+
+    fetch(
+        "get_bookings.php?booking_date=" +
+        booking_date
+    )
+
+    .then(response => response.json())
+
+    .then(data => {
+
+        document.querySelectorAll(".time-btn")
+        .forEach(btn => {
+
+            btn.disabled = false;
+
+            btn.classList.remove("unavailable");
+
+        });
+
+        data.forEach(booking => {
+
+            document.querySelectorAll(".time-btn")
+            .forEach(btn => {
+
+                if(btn.innerText ==
+                    booking.booking_time){
+
+                    btn.disabled = true;
+
+                    btn.classList.add("unavailable");
+
+                }
+
+            });
+
+        });
+
+    });
+
 }

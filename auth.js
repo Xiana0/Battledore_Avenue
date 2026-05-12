@@ -68,7 +68,7 @@ function loginUser() {
     if (email === savedUser.email && password === savedUser.password) {
         localStorage.setItem("loggedInUser", JSON.stringify(savedUser));
         alert("Login successful!");
-        window.location.href = "home.html";
+        window.location.href = "home.php";
     } else {
         alert("Incorrect email or password.");
     }
@@ -81,7 +81,7 @@ function adminLogin() {
     if (adminId === "admin" && adminPassword === "1234") {
         localStorage.setItem("adminLoggedIn", "true");
         alert("Admin login successful!");
-        window.location.href = "home.html";
+        window.location.href = "home.php";
     } else {
         alert("Incorrect admin ID or password.");
     }

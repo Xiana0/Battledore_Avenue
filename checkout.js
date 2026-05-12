@@ -69,7 +69,7 @@ function confirmPayment() {
     // CLEAR CART AFTER PAYMENT
     localStorage.removeItem("cart");
 
-    window.location.href = "home.html";
+    window.location.href = "home.php";
 }
 
 // LOAD ON PAGE
