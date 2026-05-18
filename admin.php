@@ -213,7 +213,39 @@ $orderQuery = mysqli_query(
                     </td>
 
                     <td>
-                        <?php echo $row['booking_date']; ?>
+
+                        <?php
+
+                        $bookingDate =
+                            strtotime($row['booking_date']);
+
+                        $today =
+                            date("Y-m-d");
+
+                        $yesterday =
+                            date(
+                                "Y-m-d",
+                                strtotime("-1 day")
+                            );
+
+                        if ($row['booking_date'] == $today) {
+
+                            echo "Today";
+                        } else if (
+                            $row['booking_date'] == $yesterday
+                        ) {
+
+                            echo "Yesterday";
+                        } else {
+
+                            echo date(
+                                "F d, Y",
+                                $bookingDate
+                            );
+                        }
+
+                        ?>
+
                     </td>
 
                     <td>
@@ -346,8 +378,8 @@ $orderQuery = mysqli_query(
             $conn,
 
             "SELECT SUM(total_amount) AS total
-FROM orders
-WHERE DATE(created_at) = CURDATE()"
+            FROM orders
+            WHERE DATE(created_at) = CURDATE()"
 
         );
 
@@ -365,8 +397,8 @@ WHERE DATE(created_at) = CURDATE()"
             $conn,
 
             "SELECT SUM(total_amount) AS total
-FROM orders
-WHERE payment_status = 'Paid'"
+            FROM orders
+            WHERE payment_status = 'Paid'"
 
         );
 
@@ -384,8 +416,8 @@ WHERE payment_status = 'Paid'"
             $conn,
 
             "SELECT SUM(total_amount) AS total
-FROM orders
-WHERE payment_status = 'Pending'"
+            FROM orders
+            WHERE payment_status = 'Pending'"
 
         );
 
