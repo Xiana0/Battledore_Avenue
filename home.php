@@ -74,8 +74,8 @@ session_start();
         <a href="home.php">Home</a>
         <a href="booking.php">Book a Court</a>
         <a href="Jersey.php">Jersey</a>
-        <a href="rentracket.php">Rent a racket</a>
-        <a href="Accessories.php">Accessories</a>
+        <a href="rentracket.php">Rent a racket & Accessories</a>
+
     </div>
 
     <section class="hero">

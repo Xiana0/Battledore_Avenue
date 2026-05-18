@@ -179,7 +179,6 @@ $orderQuery = mysqli_query(
 
         </div>
 
-
         <!-- BOOKINGS -->
 
         <h2>Recent Bookings</h2>
@@ -223,11 +222,51 @@ $orderQuery = mysqli_query(
 
                     <td>
 
-                        <span class="status">
+                        <form action="update_booking.php" method="POST">
 
-                            <?php echo $row['status']; ?>
+                            <input
+                                type="hidden"
+                                name="booking_id"
+                                value="<?php echo $row['id']; ?>">
 
-                        </span>
+                            <select name="status">
+
+                                <option value="Pending"
+                                    <?php
+                                    if ($row['status'] == "Pending") {
+                                        echo "selected";
+                                    }
+                                    ?>>
+                                    Pending
+                                </option>
+
+                                <option value="Playing"
+                                    <?php
+                                    if ($row['status'] == "Playing") {
+                                        echo "selected";
+                                    }
+                                    ?>>
+                                    Playing
+                                </option>
+
+                                <option value="Done"
+                                    <?php
+                                    if ($row['status'] == "Done") {
+                                        echo "selected";
+                                    }
+                                    ?>>
+                                    Done
+                                </option>
+
+                            </select>
+
+                            <button type="submit">
+
+                                Update
+
+                            </button>
+
+                        </form>
 
                     </td>
 
@@ -253,6 +292,7 @@ $orderQuery = mysqli_query(
                 <th>Name</th>
                 <th>Email</th>
                 <th>Contact</th>
+                <th>Address</th>
 
             </tr>
 
@@ -281,13 +321,115 @@ $orderQuery = mysqli_query(
                         <?php echo $user['contact']; ?>
                     </td>
 
+                    <td>
+                        <?php echo $user['address']; ?>
+                    </td>
+
                 </tr>
 
             <?php } ?>
 
         </table>
 
+        <!-- SALES SUMMARY -->
 
+        <h2 style="margin-top:50px;">
+            Sales Summary
+        </h2>
+
+        <?php
+
+        // TODAY SALES
+
+        $todaySalesQuery = mysqli_query(
+
+            $conn,
+
+            "SELECT SUM(total_amount) AS total
+FROM orders
+WHERE DATE(created_at) = CURDATE()"
+
+        );
+
+        $todaySalesData =
+            mysqli_fetch_assoc($todaySalesQuery);
+
+        $todaySales =
+            $todaySalesData['total'];
+
+
+        // PAID SALES
+
+        $paidSalesQuery = mysqli_query(
+
+            $conn,
+
+            "SELECT SUM(total_amount) AS total
+FROM orders
+WHERE payment_status = 'Paid'"
+
+        );
+
+        $paidSalesData =
+            mysqli_fetch_assoc($paidSalesQuery);
+
+        $paidSales =
+            $paidSalesData['total'];
+
+
+        // PENDING SALES
+
+        $pendingSalesQuery = mysqli_query(
+
+            $conn,
+
+            "SELECT SUM(total_amount) AS total
+FROM orders
+WHERE payment_status = 'Pending'"
+
+        );
+
+        $pendingSalesData =
+            mysqli_fetch_assoc($pendingSalesQuery);
+
+        $pendingSales =
+            $pendingSalesData['total'];
+
+        ?>
+
+        <div class="sales-container">
+
+            <div class="sales-card">
+
+                <h3>Today's Sales</h3>
+
+                <p>
+                    ₱<?php echo number_format($todaySales); ?>
+                </p>
+
+            </div>
+
+            <div class="sales-card">
+
+                <h3>Paid Sales</h3>
+
+                <p>
+                    ₱<?php echo number_format($paidSales); ?>
+                </p>
+
+            </div>
+
+            <div class="sales-card">
+
+                <h3>Pending Sales</h3>
+
+                <p>
+                    ₱<?php echo number_format($pendingSales); ?>
+                </p>
+
+            </div>
+
+        </div>
 
         <!-- ORDERS -->
 
@@ -302,6 +444,7 @@ $orderQuery = mysqli_query(
                 <th>Order ID</th>
                 <th>Customer</th>
                 <th>Total</th>
+                <th>Items</th>
                 <th>Payment</th>
                 <th>Status</th>
                 <th>Action</th>
@@ -327,6 +470,129 @@ $orderQuery = mysqli_query(
 
                     <td>
                         ₱<?php echo number_format($order['total_amount']); ?>
+                    </td>
+
+                    <td>
+
+                        <?php
+
+                        $order_id = $order['id'];
+
+
+                        // JERSEYS
+
+                        $jerseyQuery = mysqli_query(
+
+                            $conn,
+
+                            "SELECT * FROM order_items
+                            WHERE order_id = '$order_id'"
+
+                        );
+
+                        while ($item = mysqli_fetch_assoc($jerseyQuery)) {
+
+                            echo "
+                            <button class='dropdown-btn' onclick=\"toggleItems('jersey" . $item['id'] . "')\">
+
+                            <b>" . $item['product_name'] . "</b> ▼
+
+                            </button>
+
+                            <div id='jersey" . $item['id'] . "'class='dropdown-content'>
+
+                            Name:
+                            " . $item['print_name'] . "
+
+                            <br>
+
+                            Number:
+                            " . $item['print_number'] . "
+                            
+                            <br>
+                            
+                            Size:
+                            " . $item['size'] . "
+                            
+                            </div>
+
+                            <hr>
+
+                            ";
+                        }
+
+
+                        // ACCESSORIES
+
+                        $accessoryQuery = mysqli_query(
+
+                            $conn,
+
+                            "SELECT * FROM accessory_orders
+                            WHERE order_id = '$order_id'"
+
+                        );
+
+                        while ($accessory = mysqli_fetch_assoc($accessoryQuery)) {
+
+                            echo "
+                            
+                            <button class='dropdown-btn' onclick=\"toggleItems('accessory" . $accessory['id'] . "')\">
+
+                            <b>" . $accessory['accessory_name'] . "</b> ▼
+
+                            </button>
+
+                            <div
+                            id='accessory" . $accessory['id'] . "'
+                            class='dropdown-content'>
+
+                            Color:
+                            " . $accessory['color'] . "
+
+                            </div>
+
+                            <hr>
+
+                            ";
+                        }
+
+
+                        // RENT RACKETS
+
+                        $racketQuery = mysqli_query(
+
+                            $conn,
+
+                            "SELECT * FROM rent_rackets
+                            WHERE order_id = '$order_id'"
+
+                        );
+
+                        while ($racket = mysqli_fetch_assoc($racketQuery)) {
+
+                            echo "
+
+                            <button class='dropdown-btn' onclick=\"toggleItems('racket" . $racket['id'] . "')\">
+
+                            <b>" . $racket['racket_name'] . "</b> ▼
+
+                            </button>
+
+                            <div id='racket" . $racket['id'] . "' class='dropdown-content'>
+
+                            Hours:
+                            " . $racket['duration'] . "
+
+                            </div>
+
+                            <hr>
+
+                            ";
+                        }
+
+                        ?>
+
                     </td>
 
                     <td>
@@ -403,6 +669,25 @@ $orderQuery = mysqli_query(
         </table>
 
     </div>
+
+    <script>
+        function toggleItems(id) {
+
+            let content =
+                document.getElementById(id);
+
+            if (content.style.display === "block") {
+
+                content.style.display = "none";
+
+            } else {
+
+                content.style.display = "block";
+
+            }
+
+        }
+    </script>
 
 </body>
 

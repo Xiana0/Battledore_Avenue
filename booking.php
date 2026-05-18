@@ -72,8 +72,7 @@ session_start();
         <a href="home.php">Home</a>
         <a href="booking.php">Book a Court</a>
         <a href="Jersey.php">Jersey</a>
-        <a href="rentracket.php">Rent a racket</a>
-        <a href="Accessories.php">Accessories</a>
+        <a href="rentracket.php">Rent a racket & Accessories</a>
     </div>
 
     <main>
@@ -148,7 +147,11 @@ session_start();
 
     <footer>
         <div>📍 LOCATION
-            <p>Barangay 3, Public Market, San Mateo, Isabela</p>
+            <p><i class="fa-solid fa-map-marker-alt"></i><a
+                    href="https://www.google.com/maps/@16.8814663,121.5879764,3a,75y,345.04h,78.67t/data=!3m7!1e1!3m5!1sIK7igqjx6mr8Hfe1Vkz44A!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D11.330046098314597%26panoid%3DIK7igqjx6mr8Hfe1Vkz44A%26yaw%3D345.03528244071964!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MDUwMi4wIKXMDSoASAFQAw%3D%3D"
+                    target="_blank">
+                    Barangay 3, Public Market, San Mateo, Isabela
+                </a></p>
         </div>
         <div>📞 CONTACTS
             <p><i class="fa-solid fa-phone"></i> 0965-048-5303</p>

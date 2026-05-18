@@ -81,6 +81,9 @@ include "db.php";
                 <label>Email Address</label>
                 <input type="email" name="email" required>
 
+                <label>Address</label>
+                <input type="address" name="address" required>
+
                 <label>Contact Number</label>
                 <input type="text" name="contact" required>
 

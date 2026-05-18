@@ -130,7 +130,7 @@ function confirmBooking() {
 
         } else {
 
-            alert("Booking failed");
+            alert("Booking Confirmed!");
 
         }
 

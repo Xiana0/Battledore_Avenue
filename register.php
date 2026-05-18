@@ -6,6 +6,7 @@ $name = $_POST['name'];
 $email = $_POST['email'];
 $contact = $_POST['contact'];
 $password = $_POST['password'];
+$address = $_POST['address'];
 
 $check = mysqli_query($conn, "SELECT * FROM users WHERE email='$email'");
 
@@ -16,7 +17,7 @@ if(mysqli_num_rows($check) > 0){
 } else {
 
     $sql = "INSERT INTO users(fullname,email,contact,password)
-    VALUES('$name','$email','$contact','$password')";
+    VALUES('$name','$email','$contact','$password', '$address')";
 
     mysqli_query($conn, $sql);
 

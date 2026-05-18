@@ -88,6 +88,12 @@ function displayCart() {
 
             </div>
 
+            ${item.color ? `
+                <p style="font-size:14px; color:#777;">
+                    Color: ${item.color}
+                </p>
+            ` : ""}
+
             <!-- REMOVE BUTTON -->
             <span
                 class="remove"
