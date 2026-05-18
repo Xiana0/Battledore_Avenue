@@ -40,7 +40,7 @@ include "db.php";
                         <input type="checkbox">
                         <span>Remember me</span>
                     </label>
-                    <a href="#">Forgot Password?</a>
+                    <a href="forgot_password.php">Forgot Password?</a>
                 </div>
 
                 <button class="btn" type="submit">Login</button>
@@ -64,7 +64,7 @@ include "db.php";
                         <input type="checkbox">
                         <span>Remember me</span>
                     </label>
-                    <a href="#">Forgot Password?</a>
+                    <a href="forgot_password.php">Forgot Password?</a>
                 </div>
 
                 <button class="btn" type="submit">Admin Login</button>

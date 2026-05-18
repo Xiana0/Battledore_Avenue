@@ -130,19 +130,6 @@ session_start();
             </div>
         </section>
 
-        <section id="screen3" class="screen">
-            <h1 class="page-title">Booking</h1>
-            <div class="confirmation-wrapper">
-                <div class="confirmation-box">
-                    <h2>✅ Booking Confirmed!</h2>
-                    <p>Your booking has been<br>successfully placed.</p>
-                    <p>Details will be sent to your email.</p>
-                </div>
-                <a href="home.php">
-                    <button class="back-btn">Back to Home</button>
-                </a>
-            </div>
-        </section>
     </main>
 
     <footer>

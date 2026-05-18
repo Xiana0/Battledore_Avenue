@@ -84,7 +84,7 @@ input {
 .row {
     display: flex;
     justify-content: space-between;
-    align-items: center; /* 👈 ADD THIS */
+    align-items: center; 
     font-size: 11px;
     margin-top: 10px;
 }
@@ -103,7 +103,7 @@ input {
 .row {
     display: flex;
     justify-content: space-between;
-    align-items: center; /* 👈 ADD THIS */
+    align-items: center; 
     font-size: 11px;
     margin-top: 10px;
 }

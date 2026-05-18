@@ -56,12 +56,8 @@ VALUES
 
 $query = mysqli_query($conn, $sql);
 
-
-// IF SUCCESS
-
 if($query){
 
-    // SEND EMAIL
 
     $mail = new PHPMailer(true);
 

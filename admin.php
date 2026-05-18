@@ -363,15 +363,12 @@ $orderQuery = mysqli_query(
 
         </table>
 
-        <!-- SALES SUMMARY -->
-
         <h2 style="margin-top:50px;">
             Sales Summary
         </h2>
 
         <?php
 
-        // TODAY SALES
 
         $todaySalesQuery = mysqli_query(
 
@@ -390,7 +387,6 @@ $orderQuery = mysqli_query(
             $todaySalesData['total'];
 
 
-        // PAID SALES
 
         $paidSalesQuery = mysqli_query(
 
@@ -409,7 +405,6 @@ $orderQuery = mysqli_query(
             $paidSalesData['total'];
 
 
-        // PENDING SALES
 
         $pendingSalesQuery = mysqli_query(
 
@@ -462,8 +457,6 @@ $orderQuery = mysqli_query(
             </div>
 
         </div>
-
-        <!-- ORDERS -->
 
         <h2 style="margin-top:50px;">
             Orders
@@ -554,8 +547,6 @@ $orderQuery = mysqli_query(
                         }
 
 
-                        // ACCESSORIES
-
                         $accessoryQuery = mysqli_query(
 
                             $conn,
@@ -589,8 +580,6 @@ $orderQuery = mysqli_query(
                             ";
                         }
 
-
-                        // RENT RACKETS
 
                         $racketQuery = mysqli_query(
 
