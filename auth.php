@@ -85,7 +85,7 @@ include "db.php";
                 <input type="address" name="address" required>
 
                 <label>Contact Number</label>
-                <input type="text" name="contact" required>
+                <input type="tel" name="contact" placeholder="e.g. 09XX-XXX-XXXX" maxlength="11" oninput="this.value = this.value.replace(/[^0-9]/g, '')" required>
 
                 <label>Password</label>
                 <input type="password" name="password" required>
